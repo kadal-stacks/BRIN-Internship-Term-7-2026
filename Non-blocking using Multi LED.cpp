@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # BRIN-Internship-Test-no.1
 
 #include <Arduino.h>
@@ -50,3 +51,6 @@ void loop() {
     digitalWrite(12, LOW);
   }
 }
+=======
+
+>>>>>>> e56fc0f0dfb450333f48f328e0715705b6197b66
