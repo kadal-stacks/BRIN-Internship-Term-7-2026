@@ -1,3 +1,5 @@
+# BRIN-Internship-Test-no.1
+
 #include <Arduino.h>
 unsigned long sec_1 = 0 , sec_2 = 0, sec_3 = 0, sec_4 = 0;
 uint8_t time = 1;
@@ -48,4 +50,3 @@ void loop() {
     digitalWrite(12, LOW);
   }
 }
-# BRIN-Internship-Test-no.1
