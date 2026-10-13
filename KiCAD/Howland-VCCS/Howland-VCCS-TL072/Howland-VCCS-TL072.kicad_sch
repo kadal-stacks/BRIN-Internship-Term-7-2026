@@ -2605,10 +2605,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "6bee7a11-c125-49d3-a6a9-f23f0c11adda")
+			(uuid "6bee7a11-c125-49d3-a6a9-f23f0c11addb")
 		)
 		(pin "2"
-			(uuid "d1377243-35b6-409b-a5b8-146db0d139ed")
+			(uuid "d1377243-35b6-409b-a5b8-146db0d139ee")
 		)
 		(instances
 			(project "Howland-VCCS-TL072"
@@ -2808,7 +2808,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 76.2 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -2888,7 +2888,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 144.78 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -3341,28 +3341,28 @@
 			)
 		)
 		(pin "8"
-			(uuid "8e1164c3-75b5-4148-bb54-bf1244fcb233")
+			(uuid "8e1164c3-75b5-4148-bb54-bf1244fcb234")
 		)
 		(pin "1"
-			(uuid "810cf590-c1ef-453f-87a9-135780136b2a")
+			(uuid "810cf590-c1ef-453f-87a9-135780136b2b")
 		)
 		(pin "7"
-			(uuid "a4a07da4-0a93-4587-ac4a-368e6e75c446")
+			(uuid "a4a07da4-0a93-4587-ac4a-368e6e75c447")
 		)
 		(pin "2"
-			(uuid "230acd7c-da06-45d8-8ed8-302e3586a7b0")
+			(uuid "230acd7c-da06-45d8-8ed8-302e3586a7b1")
 		)
 		(pin "5"
-			(uuid "500970b4-3b70-4699-a287-384ee9fd1b31")
+			(uuid "500970b4-3b70-4699-a287-384ee9fd1b32")
 		)
 		(pin "6"
-			(uuid "498e86be-f614-4292-867a-8cb0cffab321")
+			(uuid "498e86be-f614-4292-867a-8cb0cffab322")
 		)
 		(pin "4"
-			(uuid "2e589fc9-65d6-4658-9ba1-eb448ff25cc8")
+			(uuid "2e589fc9-65d6-4658-9ba1-eb448ff25cc9")
 		)
 		(pin "3"
-			(uuid "cd7838cc-17a6-4481-a848-644dbe748da4")
+			(uuid "cd7838cc-17a6-4481-a848-644dbe748da5")
 		)
 		(instances
 			(project "Howland-VCCS-TL072"
@@ -4312,7 +4312,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "5f916d8d-e345-471b-92f9-ffb21c163458")
+			(uuid "5f916d8d-e345-471b-92f9-ffb21c163459")
 		)
 		(instances
 			(project "Howland-VCCS-TL072"
@@ -4389,28 +4389,28 @@
 			)
 		)
 		(pin "8"
-			(uuid "8e1164c3-75b5-4148-bb54-bf1244fcb233")
+			(uuid "8e1164c3-75b5-4148-bb54-bf1244fcb235")
 		)
 		(pin "1"
-			(uuid "810cf590-c1ef-453f-87a9-135780136b2a")
+			(uuid "810cf590-c1ef-453f-87a9-135780136b2c")
 		)
 		(pin "7"
-			(uuid "a4a07da4-0a93-4587-ac4a-368e6e75c446")
+			(uuid "a4a07da4-0a93-4587-ac4a-368e6e75c448")
 		)
 		(pin "2"
-			(uuid "230acd7c-da06-45d8-8ed8-302e3586a7b0")
+			(uuid "230acd7c-da06-45d8-8ed8-302e3586a7b2")
 		)
 		(pin "5"
-			(uuid "500970b4-3b70-4699-a287-384ee9fd1b31")
+			(uuid "500970b4-3b70-4699-a287-384ee9fd1b33")
 		)
 		(pin "6"
-			(uuid "498e86be-f614-4292-867a-8cb0cffab321")
+			(uuid "498e86be-f614-4292-867a-8cb0cffab323")
 		)
 		(pin "4"
-			(uuid "2e589fc9-65d6-4658-9ba1-eb448ff25cc8")
+			(uuid "2e589fc9-65d6-4658-9ba1-eb448ff25cca")
 		)
 		(pin "3"
-			(uuid "cd7838cc-17a6-4481-a848-644dbe748da4")
+			(uuid "cd7838cc-17a6-4481-a848-644dbe748da6")
 		)
 		(instances
 			(project "Howland-VCCS-TL072"
