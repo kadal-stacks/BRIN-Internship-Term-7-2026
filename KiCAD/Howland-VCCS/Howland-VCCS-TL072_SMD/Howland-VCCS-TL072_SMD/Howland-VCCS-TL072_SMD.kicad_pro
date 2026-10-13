@@ -52,8 +52,8 @@
         "zones": {
           "border_display_style": 2,
           "border_hatch_pitch": 0.5,
-          "corner_radius": 0.0,
-          "corner_smoothing": 0,
+          "corner_radius": 1.0,
+          "corner_smoothing": 2,
           "fill_mode": 0,
           "hatch_gap": 1.5,
           "hatch_orientation": 0.0,
@@ -623,6 +623,18 @@
           "label": "Description",
           "name": "Description",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -673,7 +685,7 @@
         "uuid": "6bd58858-d470-4320-8b32-2d311dd1521a"
       }
     ],
-    "used_designators": "R1-7,J1-2,#FLG1-3,#PWR1-8,C1-2,JP1-2,H1-2,U1",
+    "used_designators": "#FLG1-3,R1-11,J1-2,#PWR1-12,C1-2,JP1-2,H1-2,U1,Q1-4",
     "variants": []
   },
   "sheets": [
