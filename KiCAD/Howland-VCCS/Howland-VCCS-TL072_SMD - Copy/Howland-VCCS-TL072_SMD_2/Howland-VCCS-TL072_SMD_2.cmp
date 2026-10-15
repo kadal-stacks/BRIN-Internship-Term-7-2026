@@ -1,0 +1,131 @@
+Cmp-Mod V01 Created by PcbNew   date = 2026-10-15T12:22:01
+
+BeginCmp
+TimeStamp = 58264aea-84dd-4c64-934a-951c9b0d1d1e
+Path = /d00576d2-1c73-43ba-8b83-c0ab5b15988d
+Reference = R4;
+ValeurCmp = 20k;
+IdModule  = Resistor_SMD:R_0805_2012Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 2ba5ef82-a6fc-4d27-8aa3-8a5e984fa152
+Path = /43fa1491-3323-4617-a0ba-6d5f1503f9b4
+Reference = JP1;
+ValeurCmp = SolderJumper_2_Open;
+IdModule  = Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 45ccb4c4-99af-4032-aded-fbb965510eb9
+Path = /20dd1773-6347-4704-b083-34a2a38ae51a
+Reference = J1;
+ValeurCmp = Conn_01x03_Pin;
+IdModule  = Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 20cb3a5b-d094-4cd0-9ad0-a4f6b2aa726b
+Path = /0d6f072b-99e4-4e13-ae00-eec53c723dee
+Reference = C1;
+ValeurCmp = C;
+IdModule  = Capacitor_SMD:C_0805_2012Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 85bcc815-4744-442e-a748-457ba2e461c8
+Path = /59134288-1a10-4651-83e6-078716c5a67e
+Reference = J2;
+ValeurCmp = Conn_01x03_Pin;
+IdModule  = Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = abe82002-b939-4c55-8b13-c0e9eb88c3a1
+Path = /2dad6b0c-69d0-4883-a083-7cccebbdbc24
+Reference = H2;
+ValeurCmp = MountingHole;
+IdModule  = MountingHole:MountingHole_2.2mm_M2;
+EndCmp
+
+BeginCmp
+TimeStamp = c6ede103-1c78-45c1-aec3-0032f2099f70
+Path = /b2193839-a917-4466-80ea-18ab1c80a928
+Reference = H1;
+ValeurCmp = MountingHole;
+IdModule  = MountingHole:MountingHole_2.2mm_M2;
+EndCmp
+
+BeginCmp
+TimeStamp = 46540a32-7bc7-4e34-aa01-da3f1978c378
+Path = /8cabf004-33a4-461e-9258-bd399955b6eb
+Reference = R6;
+ValeurCmp = R;
+IdModule  = Resistor_SMD:R_0805_2012Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 8aef68c3-e791-4a9e-b105-5c607f8399d2
+Path = /0e6f3f9c-f654-4616-bbbc-85c194b6d901
+Reference = R7;
+ValeurCmp = R;
+IdModule  = Resistor_SMD:R_0805_2012Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = cd78cd88-57af-4cea-ac72-2019525dfc04
+Path = /1edbb8f8-0eb4-4099-adf4-ffc31211e420
+Reference = JP2;
+ValeurCmp = SolderJumper_2_Open;
+IdModule  = Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 9d319fc3-34ab-408e-a21c-b81008f64425
+Path = /28f0d9f9-2345-481b-8cde-9fc3491028f1
+Reference = R5;
+ValeurCmp = 100;
+IdModule  = Resistor_SMD:R_0805_2012Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 168bec02-d20f-4124-bf27-0f1f359b50c4
+Path = /d9a11c01-dd82-4393-842d-0377710cecb2
+Reference = R3;
+ValeurCmp = 100k;
+IdModule  = Resistor_SMD:R_0805_2012Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 28384528-56b7-4906-8409-65ba55ec240e
+Path = /011c95fd-b51c-4f0c-aeb6-4fbf0677c179
+Reference = R2;
+ValeurCmp = 20k;
+IdModule  = Resistor_SMD:R_0805_2012Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = e6789f98-505d-425b-b42a-4553ba00f359
+Path = /693560a7-f6cc-4477-93ed-3005ee256c47
+Reference = C2;
+ValeurCmp = C;
+IdModule  = Capacitor_SMD:C_0805_2012Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = acea5391-ef55-4309-a0df-55f582002af0
+Path = /b110d737-16d3-4a6f-a287-291fb56ef03e
+Reference = R1;
+ValeurCmp = 100k;
+IdModule  = Resistor_SMD:R_0805_2012Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 0022e5b3-3d0a-4290-aac6-635464d39ffd
+Path = /8f7d6c2b-9a50-494d-bac0-b7a126496fba
+Reference = U1;
+ValeurCmp = TL072;
+IdModule  = Package_DIP:DIP-8_W7.62mm;
+EndCmp
+
+EndListe
