@@ -488,7 +488,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Howland-VCCS-TL072_SMD.kicad_pro",
+    "filename": "Howland-VCCS-TL072_SMD_2.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -680,8 +680,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "Howland-VCCS-TL072_SMD.kicad_sch",
-        "name": "Root",
+        "filename": "Howland-VCCS-TL072_SMD_2.kicad_sch",
+        "name": "Howland-VCCS-TL072_SMD_2",
         "uuid": "6bd58858-d470-4320-8b32-2d311dd1521a"
       }
     ],
@@ -691,7 +691,7 @@
   "sheets": [
     [
       "6bd58858-d470-4320-8b32-2d311dd1521a",
-      "Root"
+      "Howland-VCCS-TL072_SMD_2"
     ]
   ],
   "text_variables": {},
