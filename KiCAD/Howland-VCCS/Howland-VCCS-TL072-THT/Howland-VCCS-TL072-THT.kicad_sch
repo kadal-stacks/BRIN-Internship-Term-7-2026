@@ -1687,16 +1687,6 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 85.09) (xy 116.84 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93c060f9-ca0e-482a-a4e9-ab0051e480e2")
-	)
-	(wire
-		(pts
 			(xy 201.93 91.44) (xy 204.47 91.44)
 		)
 		(stroke
@@ -3525,84 +3515,6 @@
 			(project "Howland-VCCS-TL072-THT"
 				(path "/d68e3eb4-bc0f-45d2-9d97-e35ad0d9a2d0"
 					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 116.84 85.09 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f3bbe5ea-38cb-4fcd-a014-dbbafe2446a0")
-		(property "Reference" "#PWR08"
-			(at 116.84 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 116.84 90.17 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 116.84 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 116.84 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 116.84 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d3171cb7-07da-4645-a09e-20d53a7b935d")
-		)
-		(instances
-			(project "Howland-VCCS-TL072-THT"
-				(path "/d68e3eb4-bc0f-45d2-9d97-e35ad0d9a2d0"
-					(reference "#PWR08")
 					(unit 1)
 				)
 			)
