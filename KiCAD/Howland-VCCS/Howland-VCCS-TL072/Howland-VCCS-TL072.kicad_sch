@@ -639,6 +639,219 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R_Potentiometer"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "RV"
+				(at -4.445 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_Potentiometer"
+				(at -2.54 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Potentiometer"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "R"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Type" "POT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=r0 2=wiper 3=r1"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "resistor variable"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Potentiometer*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_Potentiometer_0_1"
+				(rectangle
+					(start 1.016 2.54)
+					(end -1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.143 0) (xy 2.286 0.508) (xy 2.286 -0.508) (xy 1.143 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.524 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Potentiometer_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -1187,6 +1400,12 @@
 		(uuid "d60cb718-9eb8-42e2-a8f6-366024e37922")
 	)
 	(junction
+		(at 196.85 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16476626-77fd-4e81-aa48-2545ac131928")
+	)
+	(junction
 		(at 101.6 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1203,6 +1422,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2458a7bb-b90f-4bcf-909c-262ff54533af")
+	)
+	(junction
+		(at 196.85 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5075c630-c417-4b00-bc76-0ad85fea7b9d")
 	)
 	(junction
 		(at 104.14 99.06)
@@ -1223,10 +1448,10 @@
 		(uuid "b08acc45-07eb-4ea7-9c24-3090993e3d94")
 	)
 	(junction
-		(at 149.86 109.22)
+		(at 179.07 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d838a52e-78ce-419e-b025-f859f030b4bd")
+		(uuid "b7160b5b-0302-48fd-bb9d-7caf2be44df6")
 	)
 	(junction
 		(at 101.6 101.6)
@@ -1242,7 +1467,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 95.25) (xy 203.2 95.25)
+			(xy 194.31 95.25) (xy 196.85 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1312,6 +1537,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 88.9) (xy 109.22 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b15583b-5a30-46fb-81ae-801d7800e530")
+	)
+	(wire
+		(pts
 			(xy 157.48 82.55) (xy 162.56 82.55)
 		)
 		(stroke
@@ -1329,6 +1564,16 @@
 			(type default)
 		)
 		(uuid "3c1091c4-4290-44e6-8168-b9b494dd2f4c")
+	)
+	(wire
+		(pts
+			(xy 196.85 85.09) (xy 196.85 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44341a86-ea8c-49a8-a9ac-b2d94f77ce3f")
 	)
 	(polyline
 		(pts
@@ -1349,6 +1594,16 @@
 			(type default)
 		)
 		(uuid "460b1174-3c0c-4dca-8b5c-7f87d3c2f00e")
+	)
+	(wire
+		(pts
+			(xy 196.85 95.25) (xy 203.2 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bca9049-7b04-497f-9e29-df7bd59f3c20")
 	)
 	(wire
 		(pts
@@ -1392,13 +1647,13 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 109.22) (xy 149.86 118.11)
+			(xy 196.85 88.9) (xy 196.85 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6d610931-f8a9-415c-b413-ba94b69dc613")
+		(uuid "63b27201-9b17-4a2d-aa55-9082e902ff0d")
 	)
 	(wire
 		(pts
@@ -1442,6 +1697,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 88.9) (xy 179.07 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8484f341-c300-4b5c-a52e-79d7e3f90a1e")
+	)
+	(wire
+		(pts
 			(xy 105.41 101.6) (xy 101.6 101.6)
 		)
 		(stroke
@@ -1459,6 +1724,16 @@
 			(type default)
 		)
 		(uuid "8dbe0bc5-7970-41c5-9042-4ddbc8eb085a")
+	)
+	(wire
+		(pts
+			(xy 179.07 88.9) (xy 186.69 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3a2d656-d0eb-4cf7-8679-9877fdbccc55")
 	)
 	(wire
 		(pts
@@ -1482,6 +1757,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 85.09) (xy 196.85 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7000dca-1ce5-47e5-894c-af6e5666f107")
+	)
+	(wire
+		(pts
 			(xy 177.8 95.25) (xy 179.07 95.25)
 		)
 		(stroke
@@ -1489,6 +1774,16 @@
 			(type default)
 		)
 		(uuid "be519094-d834-4021-9009-8cc9f6178b79")
+	)
+	(wire
+		(pts
+			(xy 194.31 88.9) (xy 196.85 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0e76753-1350-404d-a68d-bdb9f304288b")
 	)
 	(polyline
 		(pts
@@ -1502,16 +1797,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 91.44) (xy 139.7 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3a7b3ff-5492-401f-9fd0-51eee82fc84d")
-	)
-	(wire
-		(pts
 			(xy 162.56 109.22) (xy 166.37 109.22)
 		)
 		(stroke
@@ -1522,7 +1807,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 82.55) (xy 179.07 95.25)
+			(xy 179.07 82.55) (xy 179.07 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1661,7 +1946,7 @@
 				)
 			)
 		)
-		(property "Value" "20k"
+		(property "Value" "100k"
 			(at 170.18 82.55 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1879,7 +2164,8 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 149.86 118.11 0)
+		(at 109.22 88.9 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1887,10 +2173,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3ea52060-ceb1-463d-af04-9fa1d701e068")
 		(property "Reference" "#PWR08"
-			(at 149.86 124.46 0)
+			(at 109.22 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1901,7 +2186,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 149.86 123.19 0)
+			(at 109.22 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1911,7 +2196,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.86 118.11 0)
+			(at 109.22 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1922,7 +2207,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 118.11 0)
+			(at 109.22 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1933,7 +2218,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 149.86 118.11 0)
+			(at 109.22 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2029,6 +2314,121 @@
 			(project "Howland-VCCS-TL072"
 				(path "/86a98f5b-8270-4f0f-bf90-6656280cb20e"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer")
+		(at 190.5 88.9 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6ac358c8-9f61-4915-9499-6e022b5df01b")
+		(property "Reference" "RV1"
+			(at 190.5 80.772 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K"
+			(at 190.5 83.312 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
+			(at 190.5 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 190.5 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "R"
+			(at 190.5 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "POT"
+			(at 190.5 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=r0 2=wiper 3=r1"
+			(at 190.5 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2086f7b3-4336-4dea-a52c-b7cb1f971e41")
+		)
+		(pin "3"
+			(uuid "748f445a-4101-4c33-ad17-700e171a9f41")
+		)
+		(pin "1"
+			(uuid "3ebd3775-8d79-4f62-a309-0b69766bd753")
+		)
+		(instances
+			(project "Howland-VCCS-TL072"
+				(path "/86a98f5b-8270-4f0f-bf90-6656280cb20e"
+					(reference "RV1")
 					(unit 1)
 				)
 			)
@@ -2731,7 +3131,7 @@
 				)
 			)
 		)
-		(property "Value" "20k"
+		(property "Value" "100k"
 			(at 170.18 109.22 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2972,7 +3372,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "150"
 			(at 190.5 95.25 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3025,84 +3425,6 @@
 			(project "Howland-VCCS-TL072"
 				(path "/86a98f5b-8270-4f0f-bf90-6656280cb20e"
 					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 139.7 91.44 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e9ddee5d-7783-468b-86de-d789d5de74f8")
-		(property "Reference" "#PWR01"
-			(at 139.7 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 139.7 96.52 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 139.7 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 139.7 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 139.7 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5f916d8d-e345-471b-92f9-ffb21c163459")
-		)
-		(instances
-			(project "Howland-VCCS-TL072"
-				(path "/86a98f5b-8270-4f0f-bf90-6656280cb20e"
-					(reference "#PWR01")
 					(unit 1)
 				)
 			)

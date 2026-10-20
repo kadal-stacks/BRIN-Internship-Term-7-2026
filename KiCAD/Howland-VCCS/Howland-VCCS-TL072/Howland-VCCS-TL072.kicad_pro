@@ -623,6 +623,24 @@
           "label": "Description",
           "name": "Description",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Type",
+          "name": "Sim.Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -673,7 +691,7 @@
         "uuid": "86a98f5b-8270-4f0f-bf90-6656280cb20e"
       }
     ],
-    "used_designators": "#FLG1-3,R1-8,J1-2,U1,JP1-2,H1-2,C1-2,#PWR1-8",
+    "used_designators": "R1-8,#FLG1-3,J1-2,U1,JP1-2,H1-2,C1-2,#PWR1-8,RV1",
     "variants": []
   },
   "sheets": [
