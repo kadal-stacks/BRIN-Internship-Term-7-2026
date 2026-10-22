@@ -19,7 +19,7 @@ Varian through-hole (THT) dari adapter breakout ATmega16–STM32.
 
 ## Mapping pin dan catatan elektrik
 
-Workbook [ATmega16-STM32-Mapping.xlsx] yang diberikan merupakan referensi mapping untuk adapter ATmega16–STM32. Tabel lengkap dan catatan validasinya tersedia pada [README varian SMD, bagian pin mapping](../ATMega16-STM32%20BP%20Adapter_SMD/README.md#pin-mapping-dari-workbook).
+Workbook ATmega16-STM32-Mapping.xlsx yang diberikan merupakan referensi mapping untuk adapter ATmega16–STM32. Tabel lengkap dan catatan validasinya tersedia pada [README varian SMD, bagian pin mapping](../ATMega16-STM32%20BP%20Adapter_SMD/README.md#pin-mapping-dari-workbook).
 
 Beberapa hal yang berlaku untuk review kedua varian:
 
