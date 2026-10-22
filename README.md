@@ -92,12 +92,12 @@ Foto berikut berasal dari halaman produk/vendor atau aset foto yang sudah tersim
 <p align="center">
   <a href="https://www.mikroe.com/atmega16"><img src="https://cdn1-shop.mikroe.com/img/product/atmega16/atmega16-large_default-12x.jpg" alt="Foto komponen ATmega16 DIP-40" width="19%"></a>
   <a href="https://raw.githubusercontent.com/kadal-stacks/BRIN-Internship-Term-7-2026/main/KiCAD/Part%20Lib/Kicad-STM32/images/BluePill.JPG"><img src="https://raw.githubusercontent.com/kadal-stacks/BRIN-Internship-Term-7-2026/main/KiCAD/Part%20Lib/Kicad-STM32/images/BluePill.JPG" alt="Foto modul STM32 Blue Pill" width="19%"></a>
-  <a href="https://www.ti.com/product/TL072"><img src="https://www.deltaset.net/Resimler/Urunler/TL072_%2CTL072CP_DIP-8_THT_-_DELTASET_ELEKTRONIK1_3054.jpg" alt="Foto IC TL072 DIP-8" width="19%"></a>
-  <a href="https://www.dhm-online.com/fr/adafruit/2613-adafruit-bmp280-i2c-or-spi-barometric-pressure-altitude-sensor.html"><img src="https://www.dhm-online.com/4840262/adafruit-bmp280-i2c-or-spi-barometric-pressure-altitude-sensor.jpg" alt="Foto modul sensor BMP280" width="19%"></a>
-  <a href="https://santanaimport.com.br/arduino-uno-rev3-a000066.htm?sku=A000066"><img src="https://santanaimport.com.br/imagens/produtos/zoom/A000066_normal.JPG" alt="Foto board Arduino Uno R3" width="19%"></a>
+  <a href="https://www.ti.com/product/TL072"><img src="https://www.dnatechindia.com/image/catalog/TL072.jpg?v=1445492923" alt="Foto IC TL072 DIP-8" width="19%"></a>
+  <a href="https://wholesale.pimoroni.com/en-eu/products/adafruit-bmp280-i2c-or-spi-barometric-pressure-altitude-sensor"><img src="https://wholesale.pimoroni.com/cdn/shop/products/2651-05.jpg?crop=center&height=1500&v=1597152815&width=1500" alt="Foto modul sensor BMP280" width="19%"></a>
+  <a href="https://laelectronica.com.gt/arduino-uno-rev3"><img src="https://santanaimport.com.br/imagens/produtos/zoom/A000066_normal.JPG" alt="Foto board Arduino Uno R3" width="19%"></a>
 </p>
 
-<sub>Sumber foto: <a href="https://www.mikroe.com/atmega16">MikroE ATmega16</a>, aset <a href="KiCAD/Part%20Lib/Kicad-STM32/README.md">Blue Pill repository</a>, <a href="https://www.ti.com/product/TL072">TI TL072 / foto paket IC dari pemasok</a>, <a href="https://www.dhm-online.com/fr/adafruit/2613-adafruit-bmp280-i2c-or-spi-barometric-pressure-altitude-sensor.html">modul BMP280 dari pemasok</a>, dan <a href="https://santanaimport.com.br/arduino-uno-rev3-a000066.htm?sku=A000066">foto Arduino Uno R3</a>. Foto TL072 yang ditampilkan adalah paket DIP-8; periksa footprint proyek sebelum membeli komponen.</sub>
+<sub>Sumber foto: <a href="https://www.mikroe.com/atmega16">MikroE ATmega16</a>, aset <a href="KiCAD/Part%20Lib/Kicad-STM32/README.md">Blue Pill repository</a>, <a href="https://www.ti.com/product/TL072">TI TL072 / foto paket IC dari pemasok</a>, <a href="https://wholesale.pimoroni.com/en-eu/products/adafruit-bmp280-i2c-or-spi-barometric-pressure-altitude-sensor">modul BMP280 dari pemasok</a>, dan <a href="https://laelectronica.com.gt/arduino-uno-rev3">foto Arduino Uno R3</a>. Foto TL072 yang ditampilkan adalah paket DIP-8; periksa footprint proyek sebelum membeli komponen.</sub>
 
 ## Memulai
 

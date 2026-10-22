@@ -5,7 +5,7 @@ Folder ini mengelompokkan desain rangkaian, schematic, PCB layout, dan library k
 <p align="center">
   <a href="https://www.mikroe.com/atmega16"><img src="https://cdn1-shop.mikroe.com/img/product/atmega16/atmega16-large_default-12x.jpg" alt="ATmega16 DIP-40" width="28%"></a>
   <a href="https://raw.githubusercontent.com/kadal-stacks/BRIN-Internship-Term-7-2026/main/KiCAD/Part%20Lib/Kicad-STM32/images/BluePill.JPG"><img src="https://raw.githubusercontent.com/kadal-stacks/BRIN-Internship-Term-7-2026/main/KiCAD/Part%20Lib/Kicad-STM32/images/BluePill.JPG" alt="STM32 Blue Pill" width="28%"></a>
-  <a href="https://www.ti.com/product/TL072"><img src="https://www.deltaset.net/Resimler/Urunler/TL072_%2CTL072CP_DIP-8_THT_-_DELTASET_ELEKTRONIK1_3054.jpg" alt="TL072 DIP-8" width="28%"></a>
+  <a href="https://www.ti.com/product/TL072"><img src="https://www.dnatechindia.com/image/catalog/TL072.jpg?v=1445492923" alt="TL072 DIP-8" width="28%"></a>
 </p>
 <sub>Foto komponen referensi dari vendor dan aset foto lokal repository, bukan foto hasil fabrikasi proyek.</sub>
 

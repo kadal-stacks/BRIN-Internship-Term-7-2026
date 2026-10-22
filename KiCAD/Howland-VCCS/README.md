@@ -2,7 +2,7 @@
 
 Kumpulan proyek ini berisi rangkaian Howland current pump berbasis op-amp TL072. Fungsi umumnya adalah mengubah sinyal tegangan kendali menjadi arus pada beban, dengan jaringan resistor dan umpan balik op-amp. Akurasi sangat bergantung pada kecocokan rasio resistor, rentang tegangan, beban, serta catu daya.
 
-<p align="center"><a href="https://www.ti.com/product/TL072"><img src="https://www.deltaset.net/Resimler/Urunler/TL072_%2CTL072CP_DIP-8_THT_-_DELTASET_ELEKTRONIK1_3054.jpg" alt="Foto asli paket IC TL072 DIP-8" width="330"></a></p><sub>Foto IC TL072 DIP-8 dari pemasok; lihat <a href="https://www.ti.com/product/TL072">datasheet resmi TI</a> untuk package/pinout. Bukan foto board Howland yang dirancang di repository.</sub>
+<p align="center"><a href="https://www.ti.com/product/TL072"><img src="https://www.dnatechindia.com/image/catalog/TL072.jpg?v=1445492923" alt="Foto asli paket IC TL072 DIP-8" width="330"></a></p><sub>Foto IC TL072 DIP-8 dari pemasok; lihat <a href="https://www.ti.com/product/TL072">datasheet resmi TI</a> untuk package/pinout. Bukan foto board Howland yang dirancang di repository.</sub>
 
 ## Komponen dari schematic saat ini
 

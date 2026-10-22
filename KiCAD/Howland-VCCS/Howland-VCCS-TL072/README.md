@@ -12,7 +12,7 @@ Varian project KiCad dengan resistor through-hole dan TL072 DIP-8.
 | J1–J2 | Header 1×3 | pitch 2.54 mm |
 | Power | VCC, VEE, GND | sesuaikan supply dengan datasheet |
 
-<p align="center"><a href="https://www.ti.com/product/TL072"><img src="https://www.deltaset.net/Resimler/Urunler/TL072_%2CTL072CP_DIP-8_THT_-_DELTASET_ELEKTRONIK1_3054.jpg" alt="Foto asli paket IC TL072 DIP-8" width="330"></a></p><sub>Foto IC TL072 DIP-8 dari pemasok; lihat <a href="https://www.ti.com/product/TL072">datasheet resmi TI</a> untuk package/pinout. Bukan foto board Howland yang dirancang di repository.</sub>
+<p align="center"><a href="https://www.ti.com/product/TL072"><img src="https://www.dnatechindia.com/image/catalog/TL072.jpg?v=1445492923" alt="Foto asli paket IC TL072 DIP-8" width="330"></a></p><sub>Foto IC TL072 DIP-8 dari pemasok; lihat <a href="https://www.ti.com/product/TL072">datasheet resmi TI</a> untuk package/pinout. Bukan foto board Howland yang dirancang di repository.</sub>
 
 ## Fungsi rangkaian
 Topologi Howland VCCS memakai op-amp dan rasio resistor untuk menghasilkan arus keluaran yang dikendalikan sinyal masukan, selama batas compliance voltage dan rentang kerja op-amp terpenuhi. RV1 menyediakan penyetelan. Pastikan resistor yang membentuk rasio memiliki toleransi/matching yang sesuai; catu daya TL072 dan beban harus divalidasi.
