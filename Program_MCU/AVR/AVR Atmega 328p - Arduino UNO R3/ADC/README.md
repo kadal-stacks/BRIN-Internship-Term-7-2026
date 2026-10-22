@@ -1,4 +1,17 @@
-# **AVR C/C++ Project Template (CMake)**
+# ADC — ATmega328P Bare-Metal Experiment
+
+<p align="center"><a href="https://santanaimport.com.br/arduino-uno-rev3-a000066.htm?sku=A000066"><img src="https://santanaimport.com.br/imagens/produtos/zoom/A000066_normal.JPG" alt="Arduino Uno R3 reference board photo" width="340"></a></p>
+<sub>Foto board referensi dari <a href="https://santanaimport.com.br/arduino-uno-rev3-a000066.htm?sku=A000066">halaman produk Arduino Uno R3</a>. Bukan foto pengujian proyek.</sub>
+
+## Fungsi source saat ini
+
+Walaupun folder bernama **ADC**, file <code>src/main.cpp</code> yang sedang tersimpan belum membaca ADC. Source mengatur PB5 (Arduino D13 / LED onboard) sebagai output, lalu membalikkan statusnya setiap 1 detik menggunakan register AVR dan <code>_delay_ms(1000)</code>.
+
+**Komponen minimal:** board/MCU ATmega328P clock 16 MHz; LED onboard pada pin D13/PB5. Untuk board Uno, tidak perlu LED/resistor eksternal untuk contoh yang memakai LED onboard. Jika memakai rangkaian LED eksternal, gunakan resistor pembatas arus.
+
+Konfigurasi build di <code>CMakeLists.txt</code> adalah bare-metal C/C++ dengan target default ATmega328P dan F_CPU 16 MHz. README template di bawah tetap dipertahankan sebagai referensi toolchain/build.
+
+---
 
 Flexible bare-metal development template for the AVR microcontroller family (ATmega, ATtiny, etc.). Built with **CMake**. seamlessly supports standalone or mixed **C** and **C++** development workflows. 
 

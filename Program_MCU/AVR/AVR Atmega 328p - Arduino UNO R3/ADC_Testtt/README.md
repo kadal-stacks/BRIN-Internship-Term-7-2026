@@ -1,14 +1,29 @@
-# BMP280 I2C Experiment (ADC_Testtt)
+# ADC_Testtt — ADC0 + BMP280 (PlatformIO Uno)
 
-PlatformIO project untuk Arduino Uno (environment uno, platform atmelavr, framework arduino). Source memakai register TWI/I2C AVR dan alamat BMP280 0x76. Meskipun nama folder menyebut ADC, implementasi yang terlihat perlu dipahami sebagai eksperimen komunikasi I2C sampai fungsi ADC diverifikasi secara terpisah.
+Proyek PlatformIO dengan environment <code>uno</code>, platform <code>atmelavr</code>, dan framework Arduino. Source dimaksudkan membaca ADC0 untuk menghitung tegangan/resistansi serta mencoba membaca ID dan data raw BMP280 melalui TWI/I²C.
 
-Berkas utama: platformio.ini dan src/main.cpp; subfolder include/lib/test disediakan untuk pengembangan.
+<p align="center">
+  <a href="https://www.dhm-online.com/fr/adafruit/2613-adafruit-bmp280-i2c-or-spi-barometric-pressure-altitude-sensor.html"><img src="https://www.dhm-online.com/4840262/adafruit-bmp280-i2c-or-spi-barometric-pressure-altitude-sensor.jpg" alt="Foto modul sensor BMP280" width="310"></a>
+  <a href="https://santanaimport.com.br/arduino-uno-rev3-a000066.htm?sku=A000066"><img src="https://santanaimport.com.br/imagens/produtos/zoom/A000066_normal.JPG" alt="Foto board Arduino Uno R3" width="310"></a>
+</p>
+<sub>Foto komponen referensi dari halaman produk; bukan foto rangkaian yang sudah dirakit.</sub>
 
-- Build: pio run -e uno
-- Upload: pio run -e uno -t upload
+## Komponen dan fungsi yang dituju
 
-Pastikan board/port benar, level tegangan aman, serta pembacaan chip ID sesuai datasheet. Dokumentasikan wiring dan hasil hardware.
+- **Arduino Uno / ATmega328P**: kontrol firmware, ADC dan bus TWI/I²C.
+- **BMP280**: sensor tekanan barometrik dan suhu. Source menargetkan alamat 0x76 dan chip ID 0x58.
+- **ADC0 / A0 + pembagi tegangan**: pengukuran node V_in dan estimasi R_uji dengan nilai resistor referensi 3.6 kΩ yang tertulis dalam formula.
+- **Serial 9600 baud**: melaporkan sampel ADC dan hasil percobaan sensor.
 
----
+## Status teknis source
 
-[README utama repositori](../../../../README.md)
+Source ini belum boleh dianggap sebagai driver BMP280 yang selesai. Di dalam <code>BMP_read_raw()</code>, pointer register ditulis ke 0xF4 (control register), sedangkan data tekanan mulai pada 0xF7 dan data suhu mulai pada 0xFA. Ada juga ekspresi <code>I2C_START</code> tanpa pemanggilan fungsi, dan argumen <code>snprintf</code> untuk chip ID/raw values tidak cocok dengan format string. Hasil yang tercetak belum merupakan pembacaan suhu/tekanan terkompensasi karena data kalibrasi dan formula kompensasi belum diterapkan.
+
+**Peringatan ADC:** bit REFS1:0 disetel ke 11, yakni referensi internal nominal 1.1 V. Pastikan tegangan pada A0 tidak melebihi referensi dan rumus pembagi benar terhadap wiring aktual.
+
+## Build
+
+- Build: <code>pio run -e uno</code>
+- Upload: <code>pio run -e uno -t upload</code>
+
+Register map: [datasheet resmi Bosch BMP280](https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmp280-ds001.pdf).

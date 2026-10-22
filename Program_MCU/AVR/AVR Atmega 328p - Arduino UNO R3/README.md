@@ -1,14 +1,14 @@
 # ATmega328P / Arduino Uno R3
 
-Folder ini mengelompokkan beberapa eksperimen. Subproyek memakai konfigurasi build yang berbeda.
+Kumpulan eksperimen firmware untuk ATmega328P, dengan proyek PlatformIO dan CMake yang tidak selalu menggunakan entry point atau toolchain yang sama.
 
-- [ADC Test](ADC%20Test/README.md): PlatformIO untuk Nano ATmega328; source saat ini berisi rutinitas TWI/I2C untuk BMP280.
-- [ADC](ADC/README.md): proyek C/C++ bare-metal berbasis CMake yang dikonfigurasi untuk ATmega328P.
-- [ADC_Testtt](ADC_Testtt/README.md): PlatformIO untuk Uno; source juga memuat rutinitas TWI/I2C dan BMP280.
-- [LED Non Blocking Program](LED%20Non%20Blocking%20Program/README.md): pola LED menggunakan millis().
+<p align="center"><a href="https://santanaimport.com.br/arduino-uno-rev3-a000066.htm?sku=A000066"><img src="https://santanaimport.com.br/imagens/produtos/zoom/A000066_normal.JPG" alt="Arduino Uno R3 board reference photo" width="360"></a></p>
+<sub>Foto referensi board <a href="https://santanaimport.com.br/arduino-uno-rev3-a000066.htm?sku=A000066">Arduino Uno R3</a>, bukan foto hasil pengujian firmware di repository ini.</sub>
 
-Nama folder “ADC” tidak otomatis berarti source hanya memakai peripheral ADC. Konfirmasi tujuan pengujian dari kode aktual.
+## Subproyek
+- [ADC Test](ADC%20Test/README.md): target PlatformIO Nano ATmega328; program membaca ADC0 dan mencoba mengakses chip ID BMP280.
+- [ADC (CMake)](ADC/README.md): saat ini source hanya men-toggle LED onboard (D13/PB5), meskipun nama foldernya ADC.
+- [ADC_Testtt](ADC_Testtt/README.md): PlatformIO Uno, pembacaan ADC0 dan percobaan data BMP280.
+- [LED Non Blocking Program](LED%20Non%20Blocking%20Program/README.md): pola LED memakai millis() tanpa delay blocking.
 
----
-
-[README utama repositori](../../../README.md)
+Baca konfigurasi build pada tiap folder sebelum kompilasi. Nama project tidak selalu mencerminkan perilaku source terbaru.

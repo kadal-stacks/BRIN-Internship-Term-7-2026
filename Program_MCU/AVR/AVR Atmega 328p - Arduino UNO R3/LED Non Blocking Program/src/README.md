@@ -1,13 +1,10 @@
-# Source Code
+# Source Code — LED Sequencer
 
-LED-Berjalan.cpp adalah implementasi utama pola LED.
+File <code>LED-Berjalan.cpp</code> mengatur dua kelompok output dengan <code>millis()</code>:
+- D0–D3 berganti status ketika interval mencapai <code>time × 500 ms</code>.
+- A0–A3 berganti status ketika interval mencapai <code>time × 1000 ms</code>.
+- Dengan <code>time = 1</code>, interval nominal adalah 500 ms dan 1000 ms, tanpa delay blocking.
 
-- Menggunakan millis() dan timestamp untuk mengatur interval tanpa blocking.
-- Mengubah status output pada D0–D3 serta A0–A3.
-- Variabel time menentukan interval pembaruan pada implementasi saat ini.
+Tidak ada schematic/wiring photo untuk project ini pada tree repository, sehingga wiring fisik tidak diklaim sebagai hasil final. Gunakan satu resistor pembatas arus per LED, periksa polaritas dan arus output, dan hindari D0/D1 jika serial upload/debug diperlukan.
 
-D0/D1 juga merupakan pin UART RX/TX pada Uno. Hindari pemakaian bersamaan dengan komunikasi serial bila tidak diperlukan; gunakan resistor pembatas arus setiap LED.
-
----
-
-[README utama repositori](../../../../../README.md)
+Lihat [README proyek](../README.md) untuk foto board referensi, komponen, dan perintah build.

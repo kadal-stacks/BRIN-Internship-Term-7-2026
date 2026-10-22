@@ -1,7 +1,7 @@
-# Kicad-STM32
+# KiCad STM32 Library
 
 
-STM32 library for Kicad : BluePill and BlackPill
+Library simbol, footprint, dan model 3D KiCad untuk modul STM32 Blue Pill dan Black Pill.
 
 - symbols : 4 for each ; with and without SWD port breakout ; four are KLC compliant (let me know if it isn't !), four are "part like", and usefull when capturing schematics while playing with breadboards
 
@@ -11,31 +11,33 @@ STM32 library for Kicad : BluePill and BlackPill
 
 **All 3D models should align properly with the KiCad and FreeCad coordinates systems. It wasn't the case with the previous version. The problem is now solved.**
 
-![](https://github.com/yet-another-average-joe/Kicad-STM32/blob/master/images/BlackPill.JPG)
-![](https://github.com/yet-another-average-joe/Kicad-STM32/blob/master/images/BluePill.JPG)
+![](images/BlackPill.JPG)
+![](images/BluePill.JPG)
 
-Symbols
+All images below are existing module photographs or KiCad library previews, not AI-generated images. Photos are illustrative module references; symbol/footprint previews are library assets rather than evidence of a manufactured board.
 
-![](https://github.com/yet-another-average-joe/Kicad-STM32/blob/master/images/YAAJ_BlackPill_Sym.png)
-![](https://github.com/yet-another-average-joe/Kicad-STM32/blob/master/images/YAAJ_BlackPill_SWD_Breakout_Sym.png)
-![](https://github.com/yet-another-average-joe/Kicad-STM32/blob/master/images/YAAJ_BluePill_Part_Like_Sym.png)
-![](https://github.com/yet-another-average-joe/Kicad-STM32/blob/master/images/YAAJ_BlackPill_Part_Like_SWD_Breakout_Sym.png)
-![](https://github.com/yet-another-average-joe/Kicad-STM32/blob/master/images/YAAJ_BluePill_Sym.png)
-![](https://github.com/yet-another-average-joe/Kicad-STM32/blob/master/images/YAAJ_BluePill_SWD_Breakout_Sym.png)
-![](https://github.com/yet-another-average-joe/Kicad-STM32/blob/master/images/YAAJ_BluePill_Part_Like_Sym.png)
-![](https://github.com/yet-another-average-joe/Kicad-STM32/blob/master/images/YAAJ_BluePill_Part_Like_SWD_Breakout_Sym.png)
+## Symbols
 
-Footprints
+![](images/YAAJ_BlackPill_Sym.png)
+![](images/YAAJ_BlackPill_SWD_Breakout_Sym.png)
+![](images/YAAJ_BluePill_Part_Like_Sym.png)
+![](images/YAAJ_BlackPill_Part_Like_SWD_Breakout_Sym.png)
+![](images/YAAJ_BluePill_Sym.png)
+![](images/YAAJ_BluePill_SWD_Breakout_Sym.png)
+![](images/YAAJ_BluePill_Part_Like_Sym.png)
+![](images/YAAJ_BluePill_Part_Like_SWD_Breakout_Sym.png)
 
-![](https://github.com/yet-another-average-joe/Kicad-STM32/blob/master/images/YAAJ_BlackPill_1_Footprint.png)
-![](https://github.com/yet-another-average-joe/Kicad-STM32/blob/master/images/YAAJ_BlackPill_2_Footprint.png)
-![](https://github.com/yet-another-average-joe/Kicad-STM32/blob/master/images/YAAJ_BlackPill_SWD_1_Footprint.png)
-![](https://github.com/yet-another-average-joe/Kicad-STM32/blob/master/images/YAAJ_BlackPill_SWD_2_Footprint.png)
+## Footprints
 
-![](https://github.com/yet-another-average-joe/Kicad-STM32/blob/master/images/YAAJ_BluePill_1_Footprint.png)
-![](https://github.com/yet-another-average-joe/Kicad-STM32/blob/master/images/YAAJ_BluePill_2_Footprint.png)
-![](https://github.com/yet-another-average-joe/Kicad-STM32/blob/master/images/YAAJ_BluePill_SWD_1_Footprint.png)
-![](https://github.com/yet-another-average-joe/Kicad-STM32/blob/master/images/YAAJ_BluePill_SWD_2_Footprint.png)
+![](images/YAAJ_BlackPill_1_Footprint.png)
+![](images/YAAJ_BlackPill_2_Footprint.png)
+![](images/YAAJ_BlackPill_SWD_1_Footprint.png)
+![](images/YAAJ_BlackPill_SWD_2_Footprint.png)
+
+![](images/YAAJ_BluePill_1_Footprint.png)
+![](images/YAAJ_BluePill_2_Footprint.png)
+![](images/YAAJ_BluePill_SWD_1_Footprint.png)
+![](images/YAAJ_BluePill_SWD_2_Footprint.png)
 
 Naming for 3Dpackage files is probably not the best. English is not my first language...
 
