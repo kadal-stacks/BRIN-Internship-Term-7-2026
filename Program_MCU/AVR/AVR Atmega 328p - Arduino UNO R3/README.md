@@ -2,7 +2,7 @@
 
 Kumpulan eksperimen firmware untuk ATmega328P, dengan proyek PlatformIO dan CMake yang tidak selalu menggunakan entry point atau toolchain yang sama.
 
-<p align="center"><a href="https://laelectronica.com.gt/arduino-uno-rev3"><img src="https://santanaimport.com.br/imagens/produtos/zoom/A000066_normal.JPG" alt="Arduino Uno R3 board reference photo" width="360"></a></p>
+<p align="center"><a href="https://laelectronica.com.gt/arduino-uno-rev3"><img src="https://laelectronica.com.gt/image/cache/catalog/Productos/Arduinos/A000066-1-1200x1200.jpg" alt="Arduino Uno R3 board reference photo" width="360"></a></p>
 <sub>Foto referensi board <a href="https://laelectronica.com.gt/arduino-uno-rev3">Arduino Uno R3</a>, bukan foto hasil pengujian firmware di repository ini.</sub>
 
 ## Subproyek

@@ -4,7 +4,7 @@ Proyek ini menggunakan target <code>nanoatmega328</code> dengan framework Arduin
 
 <p align="center">
   <a href="https://wholesale.pimoroni.com/en-eu/products/adafruit-bmp280-i2c-or-spi-barometric-pressure-altitude-sensor"><img src="https://wholesale.pimoroni.com/cdn/shop/products/2651-05.jpg?crop=center&height=1500&v=1597152815&width=1500" alt="Foto modul breakout sensor BMP280" width="310"></a>
-  <a href="https://laelectronica.com.gt/arduino-uno-rev3"><img src="https://santanaimport.com.br/imagens/produtos/zoom/A000066_normal.JPG" alt="Foto board Arduino Uno R3 sebagai referensi keluarga ATmega328P" width="310"></a>
+  <a href="https://laelectronica.com.gt/arduino-uno-rev3"><img src="https://laelectronica.com.gt/image/cache/catalog/Productos/Arduinos/A000066-1-1200x1200.jpg" alt="Foto board Arduino Uno R3 sebagai referensi keluarga ATmega328P" width="310"></a>
 </p>
 <sub>Foto modul sensor dari <a href="https://wholesale.pimoroni.com/en-eu/products/adafruit-bmp280-i2c-or-spi-barometric-pressure-altitude-sensor">pemasok modul BMP280</a> dan foto board referensi dari <a href="https://laelectronica.com.gt/arduino-uno-rev3">halaman produk Uno R3</a>. Foto bukan bukti modul tersebut yang dipakai pada sesi tes.</sub>
 

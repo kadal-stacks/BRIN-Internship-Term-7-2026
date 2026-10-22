@@ -4,7 +4,7 @@ Proyek PlatformIO dengan environment <code>uno</code>, platform <code>atmelavr</
 
 <p align="center">
   <a href="https://wholesale.pimoroni.com/en-eu/products/adafruit-bmp280-i2c-or-spi-barometric-pressure-altitude-sensor"><img src="https://wholesale.pimoroni.com/cdn/shop/products/2651-05.jpg?crop=center&height=1500&v=1597152815&width=1500" alt="Foto modul sensor BMP280" width="310"></a>
-  <a href="https://laelectronica.com.gt/arduino-uno-rev3"><img src="https://santanaimport.com.br/imagens/produtos/zoom/A000066_normal.JPG" alt="Foto board Arduino Uno R3" width="310"></a>
+  <a href="https://laelectronica.com.gt/arduino-uno-rev3"><img src="https://laelectronica.com.gt/image/cache/catalog/Productos/Arduinos/A000066-1-1200x1200.jpg" alt="Foto board Arduino Uno R3" width="310"></a>
 </p>
 <sub>Foto komponen referensi dari halaman produk; bukan foto rangkaian yang sudah dirakit.</sub>
 
