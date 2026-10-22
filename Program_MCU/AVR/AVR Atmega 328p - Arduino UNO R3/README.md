@@ -2,8 +2,8 @@
 
 Kumpulan eksperimen firmware untuk ATmega328P, dengan proyek PlatformIO dan CMake yang tidak selalu menggunakan entry point atau toolchain yang sama.
 
-<p align="center"><a href="https://santanaimport.com.br/arduino-uno-rev3-a000066.htm?sku=A000066"><img src="https://santanaimport.com.br/imagens/produtos/zoom/A000066_normal.JPG" alt="Arduino Uno R3 board reference photo" width="360"></a></p>
-<sub>Foto referensi board <a href="https://santanaimport.com.br/arduino-uno-rev3-a000066.htm?sku=A000066">Arduino Uno R3</a>, bukan foto hasil pengujian firmware di repository ini.</sub>
+<p align="center"><a href="https://laelectronica.com.gt/arduino-uno-rev3"><img src="https://santanaimport.com.br/imagens/produtos/zoom/A000066_normal.JPG" alt="Arduino Uno R3 board reference photo" width="360"></a></p>
+<sub>Foto referensi board <a href="https://laelectronica.com.gt/arduino-uno-rev3">Arduino Uno R3</a>, bukan foto hasil pengujian firmware di repository ini.</sub>
 
 ## Subproyek
 - [ADC Test](ADC%20Test/README.md): target PlatformIO Nano ATmega328; program membaca ADC0 dan mencoba mengakses chip ID BMP280.

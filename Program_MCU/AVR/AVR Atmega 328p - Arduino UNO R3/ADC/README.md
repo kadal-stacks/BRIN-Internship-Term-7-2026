@@ -1,7 +1,7 @@
 # ADC — ATmega328P Bare-Metal Experiment
 
-<p align="center"><a href="https://santanaimport.com.br/arduino-uno-rev3-a000066.htm?sku=A000066"><img src="https://santanaimport.com.br/imagens/produtos/zoom/A000066_normal.JPG" alt="Arduino Uno R3 reference board photo" width="340"></a></p>
-<sub>Foto board referensi dari <a href="https://santanaimport.com.br/arduino-uno-rev3-a000066.htm?sku=A000066">halaman produk Arduino Uno R3</a>. Bukan foto pengujian proyek.</sub>
+<p align="center"><a href="https://laelectronica.com.gt/arduino-uno-rev3"><img src="https://santanaimport.com.br/imagens/produtos/zoom/A000066_normal.JPG" alt="Arduino Uno R3 reference board photo" width="340"></a></p>
+<sub>Foto board referensi dari <a href="https://laelectronica.com.gt/arduino-uno-rev3">halaman produk Arduino Uno R3</a>. Bukan foto pengujian proyek.</sub>
 
 ## Fungsi source saat ini
 

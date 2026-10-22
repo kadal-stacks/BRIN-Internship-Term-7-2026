@@ -3,10 +3,10 @@
 Proyek ini menggunakan target <code>nanoatmega328</code> dengan framework Arduino. Source saat ini menggabungkan pembacaan tegangan melalui ADC0 dengan percobaan membaca chip ID BMP280 via I²C/TWI.
 
 <p align="center">
-  <a href="https://www.dhm-online.com/fr/adafruit/2613-adafruit-bmp280-i2c-or-spi-barometric-pressure-altitude-sensor.html"><img src="https://www.dhm-online.com/4840262/adafruit-bmp280-i2c-or-spi-barometric-pressure-altitude-sensor.jpg" alt="Foto modul breakout sensor BMP280" width="310"></a>
-  <a href="https://santanaimport.com.br/arduino-uno-rev3-a000066.htm?sku=A000066"><img src="https://santanaimport.com.br/imagens/produtos/zoom/A000066_normal.JPG" alt="Foto board Arduino Uno R3 sebagai referensi keluarga ATmega328P" width="310"></a>
+  <a href="https://wholesale.pimoroni.com/en-eu/products/adafruit-bmp280-i2c-or-spi-barometric-pressure-altitude-sensor"><img src="https://wholesale.pimoroni.com/cdn/shop/products/2651-05.jpg?crop=center&height=1500&v=1597152815&width=1500" alt="Foto modul breakout sensor BMP280" width="310"></a>
+  <a href="https://laelectronica.com.gt/arduino-uno-rev3"><img src="https://santanaimport.com.br/imagens/produtos/zoom/A000066_normal.JPG" alt="Foto board Arduino Uno R3 sebagai referensi keluarga ATmega328P" width="310"></a>
 </p>
-<sub>Foto modul sensor dari <a href="https://www.dhm-online.com/fr/adafruit/2613-adafruit-bmp280-i2c-or-spi-barometric-pressure-altitude-sensor.html">pemasok modul BMP280</a> dan foto board referensi dari <a href="https://santanaimport.com.br/arduino-uno-rev3-a000066.htm?sku=A000066">halaman produk Uno R3</a>. Foto bukan bukti modul tersebut yang dipakai pada sesi tes.</sub>
+<sub>Foto modul sensor dari <a href="https://wholesale.pimoroni.com/en-eu/products/adafruit-bmp280-i2c-or-spi-barometric-pressure-altitude-sensor">pemasok modul BMP280</a> dan foto board referensi dari <a href="https://laelectronica.com.gt/arduino-uno-rev3">halaman produk Uno R3</a>. Foto bukan bukti modul tersebut yang dipakai pada sesi tes.</sub>
 
 ## Komponen/hardware yang tersirat oleh source
 

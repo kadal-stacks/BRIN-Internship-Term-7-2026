@@ -2,7 +2,7 @@
 
 Program PlatformIO untuk Arduino Uno/ATmega328P yang mengatur pola LED dengan beberapa timestamp berbasis <code>millis()</code>, tanpa menggunakan <code>delay()</code> pada loop utama.
 
-<p align="center"><a href="https://santanaimport.com.br/arduino-uno-rev3-a000066.htm?sku=A000066"><img src="https://santanaimport.com.br/imagens/produtos/zoom/A000066_normal.JPG" alt="Arduino Uno R3 board reference photo" width="360"></a></p>
+<p align="center"><a href="https://laelectronica.com.gt/arduino-uno-rev3"><img src="https://santanaimport.com.br/imagens/produtos/zoom/A000066_normal.JPG" alt="Arduino Uno R3 board reference photo" width="360"></a></p>
 <sub>Foto Uno adalah referensi board saja; repository belum menyertakan foto rangkaian LED hasil perakitan.</sub>
 
 ## Komponen dan fungsi

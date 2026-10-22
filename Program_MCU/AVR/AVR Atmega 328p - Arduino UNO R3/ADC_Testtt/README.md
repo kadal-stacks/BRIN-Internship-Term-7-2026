@@ -3,8 +3,8 @@
 Proyek PlatformIO dengan environment <code>uno</code>, platform <code>atmelavr</code>, dan framework Arduino. Source dimaksudkan membaca ADC0 untuk menghitung tegangan/resistansi serta mencoba membaca ID dan data raw BMP280 melalui TWI/I²C.
 
 <p align="center">
-  <a href="https://www.dhm-online.com/fr/adafruit/2613-adafruit-bmp280-i2c-or-spi-barometric-pressure-altitude-sensor.html"><img src="https://www.dhm-online.com/4840262/adafruit-bmp280-i2c-or-spi-barometric-pressure-altitude-sensor.jpg" alt="Foto modul sensor BMP280" width="310"></a>
-  <a href="https://santanaimport.com.br/arduino-uno-rev3-a000066.htm?sku=A000066"><img src="https://santanaimport.com.br/imagens/produtos/zoom/A000066_normal.JPG" alt="Foto board Arduino Uno R3" width="310"></a>
+  <a href="https://wholesale.pimoroni.com/en-eu/products/adafruit-bmp280-i2c-or-spi-barometric-pressure-altitude-sensor"><img src="https://wholesale.pimoroni.com/cdn/shop/products/2651-05.jpg?crop=center&height=1500&v=1597152815&width=1500" alt="Foto modul sensor BMP280" width="310"></a>
+  <a href="https://laelectronica.com.gt/arduino-uno-rev3"><img src="https://santanaimport.com.br/imagens/produtos/zoom/A000066_normal.JPG" alt="Foto board Arduino Uno R3" width="310"></a>
 </p>
 <sub>Foto komponen referensi dari halaman produk; bukan foto rangkaian yang sudah dirakit.</sub>
 
