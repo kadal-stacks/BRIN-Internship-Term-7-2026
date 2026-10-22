@@ -36,7 +36,7 @@ Tabel berikut mempertahankan pemetaan dan catatan utama dari workbook. Pin STM32
 | 20 | PD6 / ICP1 | PB1 | TIM3_CH4, contoh input capture |
 | 21 | PD7 / OC2 | PB4 | TIM3_CH1, fungsi timer menurut workbook |
 | 1 | PB0 / XCK-T0 | PB10 | TIM2_CH3, input pencacah timer eksternal |
-| 2 | PB1 / T1 | PA14 | TIM1_ETR, input timer eksternal |
+| 2 | PB1 / T1 | PA14 (tertulis di workbook) | **Mapping perlu dikoreksi/diverifikasi:** PA14 pada STM32F103 adalah JTCK/SWCLK; jangan anggap PA14 sebagai TIM1_ETR. Datasheet keluarga ini menempatkan TIM1_ETR pada PA12 untuk varian yang relevan. |
 | 3 | PB2 / INT2-AIN0 | PB2 | GPIO + EXTI2; workbook menyarankan cek BOOT1 strap |
 | 4 | PB3 / OC0-AIN1 | PB3 | TIM2_CH2; workbook mencatat perlu TIM2 remapping |
 | 9 | RESET | RESET | Hardware reset |
@@ -79,7 +79,7 @@ Tabel tambahan ini sengaja dipisahkan dari tabel routing utama karena workbook t
 ## Review elektrik sebelum fabrikasi
 
 1. **AVCC ATmega16 jangan dibiarkan NC tanpa peninjauan.** Workbook menulis pin 30 AVCC → NC, tetapi datasheet Microchip menyatakan AVCC adalah catu untuk Port A dan ADC dan harus dihubungkan secara eksternal ke VCC walaupun ADC tidak digunakan. Jika ADC digunakan, datasheet menyarankan koneksi ke VCC melalui low-pass filter. Periksa dan koreksi mapping/net PCB jika memang belum tersambung. [Sumber resmi Microchip](https://onlinedocs.microchip.com/oxy/GUID-74F8229E-4C43-4FA0-BE7D-1AA303C6F8A4-en-US-6/GUID-06BED1CC-0D2D-41F7-B7B9-66FC2466E2C5.html).
-2. **Cek PA14 jika SWD debugging diperlukan.** Workbook memetakan PB1/T1 ke PA14/TIM1_ETR. Pada STM32F103, PA14 juga merupakan fungsi JTCK/SWCLK; validasi apakah mapping timer ini berbenturan dengan kebutuhan debugger. [Sumber resmi ST](https://www.st.com/resource/en/datasheet/cd00210843.pdf).
+2. **Koreksi mapping PA14/TIM1_ETR sebelum fabrikasi.** Workbook memetakan PB1/T1 ke PA14 dan memberi keterangan TIM1_ETR. Namun datasheet STM32F103 menunjukkan PA14 sebagai JTCK/SWCLK dan tidak mencantumkan TIM1_ETR sebagai alternate function PA14; pada varian terkait, TIM1_ETR tersedia pada PA12. Karena itu, mapping di baris workbook tersebut harus diperlakukan sebagai usulan yang belum benar, lalu tentukan pin target dan perbarui schematic/PCB. [Datasheet resmi ST STM32F103x4/x6](https://www.st.com/resource/en/datasheet/stm32f103t4.pdf) dan [datasheet performa menengah](https://www.st.com/resource/en/datasheet/cd00210843.pdf).
 3. **Periksa pin 31 GND.** Pinout ATmega16 DIP-40 memuat GND pada pin 11 dan 31, sedangkan tabel routing utama hanya menyebut pin 11. Pastikan kedua pin GND yang dibutuhkan benar-benar terhubung ke ground pada implementasi adapter. [Datasheet ATmega16](https://www.microchip.com/content/dam/mchp/documents/OTH/ProductDocuments/DataSheets/doc2466.pdf).
 4. **Level tegangan:** net yang diberi nama 5V+ tidak membuktikan semua sinyal 5 V aman masuk ke STM32. Pastikan toleransi input setiap pin, arah sinyal, serta cara mencatu kedua board. Schematic tidak menunjukkan level-shifter aktif.
 5. **Pin khusus dan alternate function:** cek BOOT1 strap pada PB2, konfigurasi/remap TIM2 pada PB3, dan kebutuhan debug pada pin yang mempunyai fungsi ganda sebelum firmware dibuat.
