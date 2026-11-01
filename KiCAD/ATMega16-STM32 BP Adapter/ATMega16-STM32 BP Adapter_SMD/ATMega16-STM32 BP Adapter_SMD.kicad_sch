@@ -1087,7 +1087,7 @@
 	)
 	(text "SS"
 		(exclude_from_sim no)
-		(at 157.734 81.28 0)
+		(at 200.406 88.138 0)
 		(effects
 			(font
 				(size 1.27 1.27)

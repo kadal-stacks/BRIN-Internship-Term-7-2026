@@ -526,8 +526,8 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
-      "step": "",
-      "vrml": ""
+      "step": "ATMega16-STM32 BP Adapter_SMD.step",
+      "vrml": "ATMega16-STM32 BP Adapter_SMD.wrl"
     },
     "page_layout_descr_file": ""
   },
