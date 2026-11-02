@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"name": "ADC_Testtt",
+			"path": "../../ADC_Testtt"
+		},
+		{
+			"name": "VCCS - AD9833 Regulator",
+			"path": ".."
+		}
+	],
+	"settings": {}
+}
