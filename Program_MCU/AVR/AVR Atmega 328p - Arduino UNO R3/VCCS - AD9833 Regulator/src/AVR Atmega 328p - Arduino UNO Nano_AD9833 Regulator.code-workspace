@@ -10,6 +10,10 @@
 		{
 			"name": "VCCS - AD9833 Regulator",
 			"path": ".."
+		},
+		{
+			"name": "VCCS-AD9833 Regulator",
+			"path": "../../../AVR Atmega 328p - Arduino Nano/VCCS-AD9833 Regulator"
 		}
 	],
 	"settings": {}
