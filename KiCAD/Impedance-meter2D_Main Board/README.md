@@ -1,3 +1,9 @@
+<p align="center">
+  <a href="https://commons.wikimedia.org/wiki/File:KiCad-Logo.svg" title="KiCad logo, KiCad Developers Team">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/5/59/KiCad-Logo.svg" alt="KiCad logo" width="150">
+  </a>
+</p>
+
 # Impedance Meter – Main Board
 
 Folder ini dimaksudkan untuk project main board impedance meter.
