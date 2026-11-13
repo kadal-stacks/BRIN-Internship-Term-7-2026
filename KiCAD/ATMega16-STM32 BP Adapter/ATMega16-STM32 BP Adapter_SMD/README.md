@@ -83,7 +83,7 @@ Referensi: [datasheet ATmega16 Microchip](https://www.microchip.com/content/dam/
 
 ## Paket Gerber dan drill
 
-<badge color="success">Gerber dan drill tersedia</badge>
+**Status: Gerber dan drill tersedia.**
 
 Arsip ZIP di repository bernama **`ATMega16-STM32 BP Adapter_SMD_Geber.zip`** (ejaan “Geber” mengikuti nama file yang sudah ada di GitHub).
 

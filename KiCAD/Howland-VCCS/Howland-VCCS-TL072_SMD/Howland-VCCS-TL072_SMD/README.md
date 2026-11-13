@@ -36,7 +36,7 @@ Luas dihitung dari rounded outline pada layer `Edge.Cuts` menggunakan `A = W × 
 
 ## Paket Gerber dan drill
 
-<badge color="success">Gerber dan drill tersedia</badge>
+**Status: Gerber dan drill tersedia.**
 
 [Unduh paket Gerber ZIP](Howland-VCCS-TL072-SMD-Gerber.zip)
 

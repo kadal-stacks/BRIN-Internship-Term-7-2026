@@ -39,4 +39,4 @@ Varian SMD adalah hybrid, bukan full-SMD: schematic terbaru masih menetapkan TL0
 
 ## Workspace lain
 
-Folder [VCCS 2 Buffer](VCCS%202%20Buffer/README.md) merupakan workspace terpisah. Paket Gerber/board area belum tersedia untuk proyek tersebut pada tree repository saat ini.
+Workspace `VCCS 2 Buffer/Howland-VCCS-2-Buffer` tetap terpisah. Folder tersebut belum memiliki paket Gerber atau gambar area pada tree repository saat ini.

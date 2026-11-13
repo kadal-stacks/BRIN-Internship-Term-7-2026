@@ -36,7 +36,7 @@ Perhitungan berdasarkan outline `Edge.Cuts` pada PCB/Gerber dengan formula `A = 
 
 ## Paket Gerber dan drill
 
-<badge color="success">Gerber dan drill tersedia</badge>
+**Status: Gerber dan drill tersedia.**
 
 [Unduh paket Gerber](Howland-VCCS-TL072-Gerber.zip)
 
