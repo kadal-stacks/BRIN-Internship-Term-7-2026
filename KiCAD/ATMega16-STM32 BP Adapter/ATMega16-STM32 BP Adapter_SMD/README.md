@@ -106,7 +106,9 @@ Gerber individual dihasilkan dengan KiCad 10.0.5. Cocokkan file dari satu paket/
 
 ## Status pemeriksaan PCB
 
-Laporan DRC yang sebelumnya disertakan untuk varian ini mencatat 102 warning yang seluruhnya berhubungan dengan silkscreen: 48 `silk_overlap` dan 54 `silk_over_copper`. Report tersebut mencatat 0 unconnected pads dan 0 footprint errors. ERC dinyatakan aman berdasarkan konfirmasi pemilik desain. Warning silkscreen tetap perlu ditinjau untuk hasil cetak yang bersih.
+Laporan DRC yang diberikan sebelumnya mencatat 102 warning yang seluruhnya berhubungan dengan silkscreen: 48 `silk_overlap` dan 54 `silk_over_copper`, dengan 0 unconnected pads dan 0 footprint errors. ERC dinyatakan aman berdasarkan konfirmasi pemilik desain.
+
+**Catatan versi:** laporan tersebut berasal dari pemeriksaan sebelumnya (22 Oktober 2026), sedangkan PCB dan Gerber yang sekarang ada di repository diperbarui pada 12 November 2026. Karena itu, angka warning lama tidak boleh dianggap sebagai hasil DRC untuk revisi Gerber terbaru. Jalankan ERC/DRC ulang pada revisi PCB yang akan diproduksi; isu silkscreen lama tetap relevan sebagai item yang perlu dicek, tetapi statusnya belum terkonfirmasi untuk revisi terbaru.
 
 ## File project
 

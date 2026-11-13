@@ -39,4 +39,4 @@ Varian SMD adalah hybrid, bukan full-SMD: schematic terbaru masih menetapkan TL0
 
 ## Workspace lain
 
-Workspace `VCCS 2 Buffer/Howland-VCCS-2-Buffer` tetap terpisah. Folder tersebut belum memiliki paket Gerber atau gambar area pada tree repository saat ini.
+Workspace [VCCS 2 Buffer](VCCS%202%20Buffer/README.md) tetap terpisah. Schematic menampilkan AD826ANZ, dua TL082, dan resistor yang masih memakai value generik `R_Small`. File PCB saat ini masih berupa stub KiCad tanpa outline maupun layout, sehingga luas board dan paket Gerber belum tersedia.

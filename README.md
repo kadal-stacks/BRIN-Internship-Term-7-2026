@@ -61,6 +61,23 @@ Format yang umum dijumpai antara lain `.kicad_pro` (project), `.kicad_sch` (sche
 
 Sebagian proyek firmware memiliki `platformio.ini` dan dapat dibuka sebagai proyek PlatformIO. Untuk source code yang berdiri sendiri, pilih board, framework, pin, serta konfigurasi build yang sesuai sebelum mengompilasi.
 
+## Deliverable PCB dan firmware terbaru
+
+### PCB dengan paket Gerber dan gambar area
+
+| Board | Luas outline | Dokumentasi |
+| --- | ---: | --- |
+| ATmega16–STM32 Adapter SMD | 1,450.75 mm² (14.5075 cm²) | [Gerber, drill, dan gambar area](KiCAD/ATMega16-STM32%20BP%20Adapter/ATMega16-STM32%20BP%20Adapter_SMD/README.md) |
+| Howland VCCS TL072 THT | 3,506.24 mm² (35.0624 cm²) | [Gerber, drill, dan gambar area](KiCAD/Howland-VCCS/Howland-VCCS-TL072/README.md) |
+| Howland VCCS TL072 SMD/hybrid | 618.85 mm² (6.1885 cm²) | [Gerber, drill, dan gambar area](KiCAD/Howland-VCCS/Howland-VCCS-TL072_SMD/Howland-VCCS-TL072_SMD/README.md) |
+
+Luas dihitung dari outline `Edge.Cuts` pada file PCB sebagai rounded rectangle, bukan dari perkiraan visual. Board Raspberry Pi Zero Dev Board juga memiliki ukuran outline yang didokumentasikan, tetapi Gerber belum tersedia.
+
+### Firmware AD9833
+
+- [VCCS–AD9833 Frequency Controller (Arduino Nano)](Program_MCU/AVR/AVR%20Atmega%20328p%20-%20Arduino%20Nano/VCCS-AD9833%20Regulator/README.md)
+- [Salinan di folder Arduino UNO R3](Program_MCU/AVR/AVR%20Atmega%20328p%20-%20Arduino%20UNO%20R3/VCCS%20-%20AD9833%20Regulator/README.md). Catatan: konfigurasi `platformio.ini` saat ini masih memilih board Nano.
+
 ## Alur kerja
 
 Alur berikut merangkum cara menavigasi dan melanjutkan pekerjaan di repositori ini. Langkah verifikasi tetap perlu disesuaikan dengan proyek dan hardware yang digunakan.

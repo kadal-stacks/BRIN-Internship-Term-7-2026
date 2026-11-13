@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="430" height="430" viewBox="0 0 430 430" role="img" aria-labelledby="title desc">
+  <title id="title">Raspberry Pi Zero Dev Board PCB area</title>
+  <desc id="desc">Measured Edge Cuts outline, 120.65 millimeters wide, 162.56 millimeters tall, with 6 millimeter corner radius and calculated rounded-rectangle area of 19,581.96 square millimeters or 195.8196 square centimeters.</desc>
+  <rect width="430" height="430" fill="#ffffff"/>
+  <text x="215" y="28" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#18202a">Raspberry Pi Zero Dev Board</text>
+  <text x="215" y="48" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#4b5563">Outline preview from KiCad Edge.Cuts · not a Gerber plot</text>
+  <rect x="95" y="82" width="240" height="323" rx="12" ry="12" fill="#eaf1f6" stroke="#263746" stroke-width="2.2"/>
+  <line x1="95" y1="68" x2="335" y2="68" stroke="#263746" stroke-width="1.2"/>
+  <line x1="95" y1="62" x2="95" y2="74" stroke="#263746" stroke-width="1.2"/>
+  <line x1="335" y1="62" x2="335" y2="74" stroke="#263746" stroke-width="1.2"/>
+  <text x="215" y="61" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#263746">120.65 mm</text>
+  <line x1="354" y1="82" x2="354" y2="405" stroke="#263746" stroke-width="1.2"/>
+  <line x1="348" y1="82" x2="360" y2="82" stroke="#263746" stroke-width="1.2"/>
+  <line x1="348" y1="405" x2="360" y2="405" stroke="#263746" stroke-width="1.2"/>
+  <text x="371" y="244" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#263746" transform="rotate(90 371 244)">162.56 mm</text>
+  <text x="215" y="206" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#18202a">PCB outline</text>
+  <text x="215" y="230" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">Rounded rectangle</text>
+  <text x="215" y="250" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">Corner radius: 6 mm</text>
+  <text x="215" y="345" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#18202a">Area: 19,581.96 mm²</text>
+  <text x="215" y="365" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#18202a">195.8196 cm²</text>
+  <text x="215" y="421" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#6b7280">Calculated from PCB Edge.Cuts geometry</text>
+</svg>

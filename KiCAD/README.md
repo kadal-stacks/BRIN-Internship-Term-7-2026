@@ -11,6 +11,9 @@ Folder ini menampung schematic, PCB layout, library komponen, dan paket manufakt
 | [Howland VCCS TL072 (SMD/hybrid)](Howland-VCCS/Howland-VCCS-TL072_SMD/Howland-VCCS-TL072_SMD/README.md) | Varian Howland dengan resistor SMD dan IC/op-amp THT | Gerber + drill tersedia | **618.85 mm² / 6.1885 cm²** |
 | [Impedance Meter Main Board](Impedance-meter2D_Main%20Board/README.md) | Workspace main board impedance meter | File manufaktur belum tersedia di folder | Belum dihitung |
 | [Part Libraries](Part%20Lib/README.md) | Symbol, footprint, dan model 3D | Library | — |
+| [Raspberry Pi Zero Dev Board](RaspiZeroDevBoard/README.md) | Carrier board Raspberry Pi Zero dengan ADC eksternal, RTC, interface serial, RS-485, LCD, dan rail daya | PCB tersedia; Gerber belum ada | **19,581.96 mm² / 195.8196 cm²** |
+| [VCCS 2 Buffer](Howland-VCCS/VCCS%202%20Buffer/README.md) | Workspace schematic buffer berbasis AD826ANZ dan TL082 | PCB masih stub; Gerber/area belum tersedia | Belum dihitung |
+
 
 ### Area board yang sudah dihitung
 
