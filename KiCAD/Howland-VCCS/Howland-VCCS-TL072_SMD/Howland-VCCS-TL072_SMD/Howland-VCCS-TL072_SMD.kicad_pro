@@ -635,6 +635,12 @@
           "label": "Sim.Device",
           "name": "Sim.Device",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Type",
+          "name": "Sim.Type",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -685,7 +691,7 @@
         "uuid": "6bd58858-d470-4320-8b32-2d311dd1521a"
       }
     ],
-    "used_designators": "#FLG1-3,R1-11,J1-2,#PWR1-12,C1-2,JP1-2,H1-2,U1,Q1-4",
+    "used_designators": "#FLG1-3,R1-11,J1-4,#PWR1-12,C1-2,JP1-2,H1-2,U1,Q1-4,RV1",
     "variants": []
   },
   "sheets": [
