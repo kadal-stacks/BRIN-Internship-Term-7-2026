@@ -1,3 +1,9 @@
+<p align="center">
+  <a href="https://commons.wikimedia.org/wiki/File:KiCad-Logo.svg" title="KiCad logo, KiCad Developers Team">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/5/59/KiCad-Logo.svg" alt="KiCad logo" width="150">
+  </a>
+</p>
+
 # ATmega16–STM32 Adapter (SMD)
 
 Varian SMD dari adapter breakout ATmega16–STM32. README ini merangkum mapping dari workbook, file manufaktur yang sudah di-commit, dan dimensi area board yang dihitung dari outline PCB.

@@ -1,3 +1,9 @@
+<p align="center">
+  <a href="https://commons.wikimedia.org/wiki/File:KiCad-Logo.svg" title="KiCad logo, KiCad Developers Team">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/5/59/KiCad-Logo.svg" alt="KiCad logo" width="150">
+  </a>
+</p>
+
 # KiCad Task Folder
 
 Folder ini disediakan untuk materi latihan/tugas KiCad. Pada tree repository saat ini belum terlihat file desain utama yang dapat diidentifikasi di sini.

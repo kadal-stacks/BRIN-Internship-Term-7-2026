@@ -1,3 +1,9 @@
+<p align="center">
+  <a href="https://commons.wikimedia.org/wiki/File:KiCad-Logo.svg" title="KiCad logo, KiCad Developers Team">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/5/59/KiCad-Logo.svg" alt="KiCad logo" width="150">
+  </a>
+</p>
+
 # Howland VCCS with TL072 (SMD / Hybrid)
 
 Folder ini adalah induk varian dengan resistor SMD. File project, Gerber, dan gambar area berada di subfolder [Howland-VCCS-TL072_SMD](Howland-VCCS-TL072_SMD/README.md).

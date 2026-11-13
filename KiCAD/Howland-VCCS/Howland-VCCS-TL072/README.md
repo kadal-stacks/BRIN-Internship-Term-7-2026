@@ -1,3 +1,9 @@
+<p align="center">
+  <a href="https://commons.wikimedia.org/wiki/File:KiCad-Logo.svg" title="KiCad logo, KiCad Developers Team">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/5/59/KiCad-Logo.svg" alt="KiCad logo" width="150">
+  </a>
+</p>
+
 # Howland VCCS with TL072 (THT)
 
 Varian through-hole dari rangkaian Howland VCCS. Schematic terbaru menampilkan TL072 DIP-8, resistor THT, trimmer, konektor 1×3, dan empat mounting hole.

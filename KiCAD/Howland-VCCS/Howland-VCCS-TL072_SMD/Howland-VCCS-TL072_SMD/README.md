@@ -1,3 +1,9 @@
+<p align="center">
+  <a href="https://commons.wikimedia.org/wiki/File:KiCad-Logo.svg" title="KiCad logo, KiCad Developers Team">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/5/59/KiCad-Logo.svg" alt="KiCad logo" width="150">
+  </a>
+</p>
+
 # Howland VCCS with TL072 (SMD / Hybrid)
 
 Project KiCad untuk varian Howland VCCS dengan jaringan resistor SMD 0805. Schematic terbaru berbeda dari revisi lama: kini memakai R1–R4 = 100 kΩ, R5 = 150 Ω, dan RV1 = 1 kΩ.
