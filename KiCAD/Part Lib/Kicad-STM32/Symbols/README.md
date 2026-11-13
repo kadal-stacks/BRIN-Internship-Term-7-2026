@@ -8,11 +8,9 @@
     <img src="https://www.st.com/content/dam/aboutus/trademarks/stm32new-logo.png" alt="STM32 logo" height="48">
   </a>
   &nbsp;&nbsp;&nbsp;
-  <a href="https://www.arm.com/company/policies/trademarks/guidelines-corporate-logo" title="Arm corporate logo guidelines">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Arm_logo_2025.svg" alt="Arm logo" height="38">
-  </a>
+  <a href="https://support.arm.com/documentation/dui0552/a/introduction/about-the-cortex-m3-processor-and-core-peripherals" title="Arm Cortex-M3 processor documentation"><strong>Arm® Cortex®-M3</strong></a>
 </p>
-<p align="center"><sub>STM32: microcontroller family by STMicroelectronics · Arm: CPU architecture and processor IP. The exact core depends on the STM32 part number; STM32F103 devices use an Arm Cortex-M3 core. Logos identify the referenced technologies and do not imply endorsement.</sub></p>
+<p align="center"><sub>STM32 adalah keluarga mikrokontroler dari STMicroelectronics. Arm menyediakan arsitektur dan desain core CPU; core yang digunakan bergantung pada seri/part number STM32. Contohnya, STM32F103 memakai Arm Cortex-M3. STM32 logo adalah identitas keluarga produk, sedangkan Arm Cortex-M3 di atas adalah nama core, bukan logo arsitektur STM32.</sub></p>
 
 
 # STM32 Symbols
