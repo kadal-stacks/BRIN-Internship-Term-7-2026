@@ -1,28 +1,31 @@
 # KiCad Projects
 
-Folder ini mengelompokkan desain rangkaian, schematic, PCB layout, dan library komponen yang dipakai selama magang.
-
-<p align="center">
-  <a href="https://www.mikroe.com/atmega16"><img src="https://cdn1-shop.mikroe.com/img/product/atmega16/atmega16-large_default-12x.jpg" alt="ATmega16 DIP-40" width="28%"></a>
-  <a href="https://raw.githubusercontent.com/kadal-stacks/BRIN-Internship-Term-7-2026/main/KiCAD/Part%20Lib/Kicad-STM32/images/BluePill.JPG"><img src="https://raw.githubusercontent.com/kadal-stacks/BRIN-Internship-Term-7-2026/main/KiCAD/Part%20Lib/Kicad-STM32/images/BluePill.JPG" alt="STM32 Blue Pill" width="28%"></a>
-  <a href="https://www.ti.com/product/TL072"><img src="https://www.dnatechindia.com/image/catalog/TL072.jpg?v=1445492923" alt="TL072 DIP-8" width="28%"></a>
-</p>
-<sub>Foto komponen referensi dari vendor dan aset foto lokal repository, bukan foto hasil fabrikasi proyek.</sub>
+Folder ini menampung schematic, PCB layout, library komponen, dan paket manufaktur dari proyek instrumentasi selama magang.
 
 ## Proyek
 
-| Proyek | Fungsi / isi |
-| --- | --- |
-| [ATMega16-STM32 BP Adapter](ATMega16-STM32%20BP%20Adapter/README.md) | Adapter breakout yang merapikan pemetaan sinyal ATmega16 ke header/board STM32; ada varian SMD dan THT. |
-| [Howland-VCCS](Howland-VCCS/README.md) | Sumber arus terkendali tegangan menggunakan op-amp TL072 dan jaringan resistor. |
-| [Impedance-meter2D_Main Board](Impedance-meter2D_Main%20Board/README.md) | Workspace main board impedance meter; dokumentasi fungsi/BOM menunggu schematic/PCB tersimpan. |
-| [Part Lib](Part%20Lib/README.md) | Library simbol, footprint, dan model 3D, termasuk STM32 Blue Pill/Black Pill. |
+| Proyek | Fungsi | Status file manufaktur | Area outline PCB |
+| --- | --- | --- | ---: |
+| [ATmega16–STM32 Adapter (SMD)](ATMega16-STM32%20BP%20Adapter/ATMega16-STM32%20BP%20Adapter_SMD/README.md) | Breakout dan routing pin ATmega16 ke header STM32 | Gerber + drill tersedia | **1,450.75 mm² / 14.5075 cm²** |
+| [Howland VCCS TL072 (THT)](Howland-VCCS/Howland-VCCS-TL072/README.md) | Voltage-controlled current source berbasis TL072 | Gerber + drill tersedia | **3,506.24 mm² / 35.0624 cm²** |
+| [Howland VCCS TL072 (SMD/hybrid)](Howland-VCCS/Howland-VCCS-TL072_SMD/Howland-VCCS-TL072_SMD/README.md) | Varian Howland dengan resistor SMD dan IC/op-amp THT | Gerber + drill tersedia | **618.85 mm² / 6.1885 cm²** |
+| [Impedance Meter Main Board](Impedance-meter2D_Main%20Board/README.md) | Workspace main board impedance meter | File manufaktur belum tersedia di folder | Belum dihitung |
+| [Part Libraries](Part%20Lib/README.md) | Symbol, footprint, dan model 3D | Library | — |
 
-## Workflow KiCad
+### Area board yang sudah dihitung
 
-1. Buka project dengan file .kicad_pro.
-2. Cocokkan simbol, nomor pin, footprint, dan datasheet komponen.
-3. Jalankan ERC pada schematic dan DRC pada PCB.
-4. Periksa outline mekanik, konektor, clearance, drill, dan hasil ekspor Gerber sebelum fabrikasi.
+Dimensi diambil dari geometri `Edge.Cuts` pada file PCB dan dicocokkan dengan layer Gerber profile. Ketiga outline berbentuk persegi panjang dengan empat sudut membulat. Area dihitung sebagai:
 
-Foto eksternal dalam README proyek adalah referensi bentuk komponen. Gunakan file .kicad_sch/.kicad_pcb sebagai sumber desain sebenarnya. 
+`A = (W × H) − (4 − π)r²`
+
+dengan `W` dan `H` sebagai ukuran bounding rectangle dan `r` sebagai radius sudut. Nilai ini adalah luas bidang outline PCB, bukan luas komponen atau bounding box tanpa koreksi sudut.
+
+## Workflow manufaktur KiCad
+
+1. Buka file `.kicad_pro` dari folder proyek.
+2. Validasi schematic, footprint, nomor pad, konektor, dan net.
+3. Jalankan ERC untuk schematic dan DRC untuk PCB.
+4. Plot layer Gerber yang diperlukan dan generate file drill PTH/NPTH.
+5. Periksa file `Edge_Cuts.gbr`, `*.gbrjob`, dan arsip ZIP sebelum dikirim ke manufaktur.
+
+Paket Gerber yang tersedia ditautkan dari README masing-masing proyek. Jangan menggunakan file dari folder atau revisi berbeda sebagai satu paket produksi.

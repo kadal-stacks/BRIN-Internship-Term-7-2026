@@ -1,26 +1,64 @@
-# Howland VCCS with TL072
+# Howland VCCS with TL072 (THT)
 
-Varian project KiCad dengan resistor through-hole dan TL072 DIP-8.
+Varian through-hole dari rangkaian Howland VCCS. Schematic terbaru menampilkan TL072 DIP-8, resistor THT, trimmer, konektor 1×3, dan empat mounting hole.
 
-## BOM / komponen yang tertera
-| Ref. | Komponen | Nilai/tipe |
+## Komponen dan fungsi
+
+| Ref. | Komponen | Nilai / footprint |
 | --- | --- | --- |
 | U1 | Dual op-amp TL072 | DIP-8 |
-| R1–R4 | Resistor | 100 kΩ, 4 buah |
-| R5 | Resistor | 150 Ω |
-| RV1 | Potensiometer trimmer | 1 kΩ |
-| J1–J2 | Header 1×3 | pitch 2.54 mm |
-| Power | VCC, VEE, GND | sesuaikan supply dengan datasheet |
+| R1–R4 | Resistor THT | 100 kΩ, 4 buah |
+| R5 | Resistor THT | 150 Ω |
+| RV1 | Potensiometer trimmer | 1 kΩ, Bourns 3296W vertical |
+| J1–J2 | Pin header 1×3 | Pitch 2.54 mm |
+| H1–H4 | Mounting hole | M2.2 / M2 |
+| Power | VCC, VEE, GND | Rail catu sesuai desain |
 
-<p align="center"><a href="https://www.ti.com/product/TL072"><img src="https://www.dnatechindia.com/image/catalog/TL072.jpg?v=1445492923" alt="Foto asli paket IC TL072 DIP-8" width="330"></a></p><sub>Foto IC TL072 DIP-8 dari pemasok; lihat <a href="https://www.ti.com/product/TL072">datasheet resmi TI</a> untuk package/pinout. Bukan foto board Howland yang dirancang di repository.</sub>
+Net label eksternal pada schematic mencakup `Id+`, `Id-`, dan `Out`. Secara fungsi, rangkaian ditujukan sebagai sumber arus terkendali tegangan; RV1 menjadi elemen penyetelan. Nilai rasio resistor dan batas supply/compliance harus diverifikasi pada simulasi dan pengukuran aktual.
 
-## Fungsi rangkaian
-Topologi Howland VCCS memakai op-amp dan rasio resistor untuk menghasilkan arus keluaran yang dikendalikan sinyal masukan, selama batas compliance voltage dan rentang kerja op-amp terpenuhi. RV1 menyediakan penyetelan. Pastikan resistor yang membentuk rasio memiliki toleransi/matching yang sesuai; catu daya TL072 dan beban harus divalidasi.
+<p align="center">
+  <img src="VCS-THT%20PCB%20Area.png" alt="Howland VCCS THT PCB area drawing" width="680">
+</p>
+
+## Dimensi dan luas board
+
+| Parameter | Nilai |
+| --- | ---: |
+| Lebar bounding outline | 81.28 mm |
+| Tinggi bounding outline | 43.18 mm |
+| Radius sudut | 2.00 mm |
+| Luas bounding rectangle | 3,509.67 mm² |
+| Koreksi empat sudut membulat | 3.43 mm² |
+| **Luas bidang PCB aktual** | **3,506.24 mm²** |
+| **Konversi** | **35.0624 cm²** |
+
+Perhitungan berdasarkan outline `Edge.Cuts` pada PCB/Gerber dengan formula `A = W × H − (4 − π)r²`. Ukuran adalah batas luar board; luas aktual dikurangi sudut rounded.
+
+## Paket Gerber dan drill
+
+<badge color="success">Gerber dan drill tersedia</badge>
+
+[Unduh paket Gerber](Howland-VCCS-TL072-Gerber.zip)
+
+Layer individual:
+- Copper: [F_Cu](Howland-VCCS-TL072-F_Cu.gbr), [B_Cu](Howland-VCCS-TL072-B_Cu.gbr)
+- Solder mask: [F_Mask](Howland-VCCS-TL072-F_Mask.gbr), [B_Mask](Howland-VCCS-TL072-B_Mask.gbr)
+- Paste: [F_Paste](Howland-VCCS-TL072-F_Paste.gbr), [B_Paste](Howland-VCCS-TL072-B_Paste.gbr)
+- Silkscreen: [F_Silkscreen](Howland-VCCS-TL072-F_Silkscreen.gbr), [B_Silkscreen](Howland-VCCS-TL072-B_Silkscreen.gbr)
+- Board profile: [Edge_Cuts](Howland-VCCS-TL072-Edge_Cuts.gbr)
+- Drill: [PTH](Howland-VCCS-TL072-PTH.drl), [NPTH](Howland-VCCS-TL072-NPTH.drl)
+- Job metadata: [Gerber job](Howland-VCCS-TL072-job.gbrjob)
+
+Gerber metadata menyatakan output dibuat dengan KiCad 10.0.5 pada 13 November 2026. Gunakan ZIP dan file layer dari revisi yang sama.
 
 ## File project
-- <code>Howland-VCCS-TL072.kicad_pro</code>: project KiCad.
-- <code>Howland-VCCS-TL072.kicad_sch</code>: schematic.
-- <code>Howland-VCCS-TL072.kicad_pcb</code>: PCB layout.
 
-## Checklist sebelum dibuat
-Jalankan ERC/DRC, periksa pin TL072, nilai resistor, pin konektor dengan label <code>Id+</code>, <code>Id-</code> dan <code>Out</code>, serta rail VCC/VEE/GND. Jangan memakai schematic saja sebagai bukti rangkaian sudah stabil atau akurat. Cocokkan kemampuan tegangan output/input op-amp dengan beban aktual.
+- `Howland-VCCS-TL072.kicad_pro`
+- `Howland-VCCS-TL072.kicad_sch`
+- `Howland-VCCS-TL072.kicad_pcb`
+
+Sebelum manufaktur, periksa pinout TL072, rasio resistor, koneksi J1/J2, rail VCC/VEE, dan nilai/setelan RV1. ERC/DRC serta hasil simulasi tidak menggantikan uji kestabilan dan pengukuran arus pada beban yang dituju.
+
+---
+
+[README Howland VCCS](../README.md) · [README KiCad](../../README.md)

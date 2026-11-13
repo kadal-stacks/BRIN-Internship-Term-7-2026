@@ -1,30 +1,64 @@
-# Howland VCCS with TL072 (SMD)
+# Howland VCCS with TL072 (SMD / Hybrid)
 
-Project KiCad untuk varian dengan resistor/kapasitor pasif SMD 0805.
+Project KiCad untuk varian Howland VCCS dengan jaringan resistor SMD 0805. Schematic terbaru berbeda dari revisi lama: kini memakai R1–R4 = 100 kΩ, R5 = 150 Ω, dan RV1 = 1 kΩ.
 
 ## Komponen dari schematic
-| Ref. | Nilai/jenis | Footprint yang tercatat |
+
+| Ref. | Komponen | Nilai / footprint |
 | --- | --- | --- |
-| U1 | TL072 | **DIP-8_W7.62mm** (THT) |
-| R1, R3 | 100 kΩ | SMD 0805 |
-| R2, R4 | 20 kΩ | SMD 0805 |
-| R5 | 100 Ω | SMD 0805 |
-| R6, R7 | Belum ditentukan (“R”) | SMD 0805 |
-| C1, C2 | Belum ditentukan (“C”) | SMD 0805 |
-| JP1, JP2 | Solder jumper terbuka | jumper 2-pad |
-| H1, H2 | Mounting hole M2.2 | mounting hole |
-| J1, J2 | Header 1×3, 2.54 mm | through-hole |
+| U1 | Dual op-amp TL072 | **DIP-8 THT** |
+| R1–R4 | Resistor | 100 kΩ, SMD 0805 |
+| R5 | Resistor | 150 Ω, SMD 0805 |
+| RV1 | Potensiometer trimmer | 1 kΩ, Bourns 3296W vertical THT |
+| J4 | Pin header 1×6 | Pitch 2.54 mm, THT |
+| H1–H2 | Mounting hole | M2.2 / M2 |
+| Net labels | Id+, Id-, Out | Label antarmuka sinyal |
 
-<p align="center"><a href="https://www.ti.com/product/TL072"><img src="https://www.dnatechindia.com/image/catalog/TL072.jpg?v=1445492923" alt="Foto asli paket IC TL072 DIP-8" width="330"></a></p><sub>Foto IC TL072 DIP-8 dari pemasok; lihat <a href="https://www.ti.com/product/TL072">datasheet resmi TI</a> untuk package/pinout. Bukan foto board Howland yang dirancang di repository.</sub>
+Desain ini **hybrid**, bukan full-SMD, karena U1, RV1, dan J4 masih memakai footprint through-hole. Schematic yang terbaru tidak lagi menunjukkan R6/R7, C1/C2, atau solder jumper JP1/JP2 yang tercantum di dokumentasi versi sebelumnya.
 
-## Fungsi
-Sumber arus terkendali tegangan berbasis topologi Howland. Nilai resistor dan pencocokan rasio merupakan bagian inti feedback; kapasitor/jumper generic yang belum diberi nilai membuat BOM belum lengkap. U1 diberi footprint DIP-8 saat ini, sehingga jangan menganggap board full-SMD.
+Secara fungsi, topologi Howland ditujukan untuk menghasilkan arus beban yang dikendalikan sinyal tegangan. Rasio resistor dan toleransinya mempengaruhi akurasi. Verifikasi supply VCC/VEE, swing output TL072, compliance voltage, dan koneksi beban sebelum uji.
 
+![Howland VCCS SMD board-area drawing](VCCS%20PCB%20Area.png)
+
+## Dimensi dan luas board
+
+| Parameter | Nilai |
+| --- | ---: |
+| Lebar bounding outline | 27.078 mm |
+| Tinggi bounding outline | 22.886 mm |
+| Radius sudut | 1.00 mm |
+| Luas bounding rectangle | 619.71 mm² |
+| Koreksi empat sudut membulat | 0.86 mm² |
+| **Luas bidang PCB aktual** | **618.85 mm²** |
+| **Konversi** | **6.1885 cm²** |
+
+Luas dihitung dari rounded outline pada layer `Edge.Cuts` menggunakan `A = W × H − (4 − π)r²`.
+
+## Paket Gerber dan drill
+
+<badge color="success">Gerber dan drill tersedia</badge>
+
+[Unduh paket Gerber ZIP](Howland-VCCS-TL072-SMD-Gerber.zip)
+
+Layer individual:
+- Copper: [F_Cu](Howland-VCCS-TL072_SMD-F_Cu.gbr), [B_Cu](Howland-VCCS-TL072_SMD-B_Cu.gbr)
+- Solder mask: [F_Mask](Howland-VCCS-TL072_SMD-F_Mask.gbr), [B_Mask](Howland-VCCS-TL072_SMD-B_Mask.gbr)
+- Paste: [F_Paste](Howland-VCCS-TL072_SMD-F_Paste.gbr), [B_Paste](Howland-VCCS-TL072_SMD-B_Paste.gbr)
+- Silkscreen: [F_Silkscreen](Howland-VCCS-TL072_SMD-F_Silkscreen.gbr), [B_Silkscreen](Howland-VCCS-TL072_SMD-B_Silkscreen.gbr)
+- Board profile: [Edge_Cuts](Howland-VCCS-TL072_SMD-Edge_Cuts.gbr)
+- Drill: [PTH](Howland-VCCS-TL072_SMD-PTH.drl), [NPTH](Howland-VCCS-TL072_SMD-NPTH.drl)
+- Job metadata: [Gerber job](Howland-VCCS-TL072_SMD-job.gbrjob)
+
+Gerber dibuat dengan KiCad 10.0.5 pada 13 November 2026.
 
 ## File project
-- <code>Howland-VCCS-TL072_SMD.kicad_pro</code>
-- <code>Howland-VCCS-TL072_SMD.kicad_sch</code>
-- <code>Howland-VCCS-TL072_SMD.kicad_pcb</code>
 
-## Before fabrication
-Isi nilai R6, R7, C1, C2, verifikasi fungsi jumper JP1/JP2, dan tetapkan package U1. Schematic saat ini mengikat U1 ke <code>Package_DIP:DIP-8_W7.62mm</code>, bukan footprint SOIC/SMD. Perbaiki bila tujuan akhirnya full-SMD. Jalankan ERC/DRC dan validasi arus output/compliance voltage sebelum merakit.
+- `Howland-VCCS-TL072_SMD.kicad_pro`
+- `Howland-VCCS-TL072_SMD.kicad_sch`
+- `Howland-VCCS-TL072_SMD.kicad_pcb`
+
+Sebelum fabrikasi, pastikan nilai/footprint sesuai schematic terbaru, khususnya footprint U1 DIP-8 dan trimmer THT. Jalankan ERC/DRC lagi apabila ada perubahan schematic, footprint, atau layout.
+
+---
+
+[README varian parent](../README.md) · [README Howland VCCS](../../README.md)
