@@ -1,0 +1,518 @@
+{
+  "schemaVersion": 1,
+  "setupState": {
+    "layerPreset": "fourLayer",
+    "layers": [
+      {
+        "name": "F.Cu",
+        "visible": true,
+        "routingEnabled": true
+      },
+      {
+        "name": "In1.Cu",
+        "visible": true,
+        "routingEnabled": true
+      },
+      {
+        "name": "In2.Cu",
+        "visible": true,
+        "routingEnabled": true
+      },
+      {
+        "name": "B.Cu",
+        "visible": true,
+        "routingEnabled": true
+      },
+      {
+        "name": "B.Adhes",
+        "visible": false,
+        "routingEnabled": false
+      },
+      {
+        "name": "F.Adhes",
+        "visible": false,
+        "routingEnabled": false
+      },
+      {
+        "name": "B.Paste",
+        "visible": false,
+        "routingEnabled": false
+      },
+      {
+        "name": "F.Paste",
+        "visible": false,
+        "routingEnabled": false
+      },
+      {
+        "name": "B.SilkS",
+        "visible": true,
+        "routingEnabled": false
+      },
+      {
+        "name": "F.SilkS",
+        "visible": true,
+        "routingEnabled": false
+      },
+      {
+        "name": "B.Mask",
+        "visible": false,
+        "routingEnabled": false
+      },
+      {
+        "name": "F.Mask",
+        "visible": false,
+        "routingEnabled": false
+      },
+      {
+        "name": "Dwgs.User",
+        "visible": true,
+        "routingEnabled": false
+      },
+      {
+        "name": "Cmts.User",
+        "visible": true,
+        "routingEnabled": false
+      },
+      {
+        "name": "Eco1.User",
+        "visible": true,
+        "routingEnabled": false
+      },
+      {
+        "name": "Eco2.User",
+        "visible": true,
+        "routingEnabled": false
+      },
+      {
+        "name": "Edge.Cuts",
+        "visible": true,
+        "routingEnabled": false
+      },
+      {
+        "name": "Margin",
+        "visible": false,
+        "routingEnabled": false
+      },
+      {
+        "name": "B.CrtYd",
+        "visible": true,
+        "routingEnabled": false
+      },
+      {
+        "name": "F.CrtYd",
+        "visible": true,
+        "routingEnabled": false
+      },
+      {
+        "name": "B.Fab",
+        "visible": true,
+        "routingEnabled": false
+      },
+      {
+        "name": "F.Fab",
+        "visible": true,
+        "routingEnabled": false
+      },
+      {
+        "name": "User.1",
+        "visible": true,
+        "routingEnabled": false
+      },
+      {
+        "name": "User.2",
+        "visible": true,
+        "routingEnabled": false
+      },
+      {
+        "name": "User.3",
+        "visible": true,
+        "routingEnabled": false
+      },
+      {
+        "name": "User.4",
+        "visible": true,
+        "routingEnabled": false
+      }
+    ],
+    "traceWidthPresets": [
+      {
+        "label": "0.10 mm",
+        "widthMm": 0.1
+      },
+      {
+        "label": "0.127 mm",
+        "widthMm": 0.127
+      },
+      {
+        "label": "0.15 mm",
+        "widthMm": 0.15
+      },
+      {
+        "label": "0.20 mm",
+        "widthMm": 0.2
+      },
+      {
+        "label": "0.25 mm",
+        "widthMm": 0.25
+      },
+      {
+        "label": "0.30 mm",
+        "widthMm": 0.3
+      },
+      {
+        "label": "0.40 mm",
+        "widthMm": 0.4
+      },
+      {
+        "label": "0.50 mm",
+        "widthMm": 0.5
+      },
+      {
+        "label": "0.80 mm",
+        "widthMm": 0.8
+      },
+      {
+        "label": "1.00 mm",
+        "widthMm": 1.0
+      }
+    ],
+    "viaPresets": [
+      {
+        "label": "0.45 / 0.20",
+        "diameterMm": 0.45,
+        "drillMm": 0.2
+      },
+      {
+        "label": "0.60 / 0.30",
+        "diameterMm": 0.6,
+        "drillMm": 0.3
+      },
+      {
+        "label": "0.80 / 0.40",
+        "diameterMm": 0.8,
+        "drillMm": 0.4
+      },
+      {
+        "label": "1.00 / 0.50",
+        "diameterMm": 1.0,
+        "drillMm": 0.5
+      }
+    ],
+    "activeLayerName": "F.Cu",
+    "activeTraceWidthMm": 0.25,
+    "activeViaPreset": {
+      "label": "0.60 / 0.30",
+      "diameterMm": 0.6,
+      "drillMm": 0.3
+    },
+    "defaultTextFontFace": "KiCad Font",
+    "snapToGrid": true,
+    "showGrid": true,
+    "gridSizeMm": 0.25,
+    "clearanceMm": 0.0,
+    "boardEdgeClearanceMm": 0.5
+  },
+  "stackup": {
+    "boardThicknessMm": 1.6,
+    "layers": [
+      {
+        "name": "F.Cu",
+        "type": "signal",
+        "thicknessMm": 0.035,
+        "role": "signal",
+        "routingEnabled": true
+      },
+      {
+        "name": "In1.Cu",
+        "type": "signal",
+        "thicknessMm": 0.035,
+        "role": "signal",
+        "routingEnabled": true
+      },
+      {
+        "name": "In2.Cu",
+        "type": "signal",
+        "thicknessMm": 0.035,
+        "role": "signal",
+        "routingEnabled": true
+      },
+      {
+        "name": "B.Cu",
+        "type": "signal",
+        "thicknessMm": 0.035,
+        "role": "groundPlane",
+        "routingEnabled": true
+      },
+      {
+        "name": "F.Adhes",
+        "type": "user",
+        "thicknessMm": 0.1,
+        "role": "mechanical",
+        "routingEnabled": false
+      },
+      {
+        "name": "B.Adhes",
+        "type": "user",
+        "thicknessMm": 0.1,
+        "role": "mechanical",
+        "routingEnabled": false
+      },
+      {
+        "name": "F.Paste",
+        "type": "user",
+        "thicknessMm": 0.1,
+        "role": "mechanical",
+        "routingEnabled": false
+      },
+      {
+        "name": "B.Paste",
+        "type": "user",
+        "thicknessMm": 0.1,
+        "role": "mechanical",
+        "routingEnabled": false
+      },
+      {
+        "name": "F.SilkS",
+        "type": "user",
+        "thicknessMm": 0.1,
+        "role": "mechanical",
+        "routingEnabled": false
+      },
+      {
+        "name": "B.SilkS",
+        "type": "user",
+        "thicknessMm": 0.1,
+        "role": "mechanical",
+        "routingEnabled": false
+      },
+      {
+        "name": "F.Mask",
+        "type": "user",
+        "thicknessMm": 0.1,
+        "role": "mechanical",
+        "routingEnabled": false
+      },
+      {
+        "name": "B.Mask",
+        "type": "user",
+        "thicknessMm": 0.1,
+        "role": "mechanical",
+        "routingEnabled": false
+      },
+      {
+        "name": "Dwgs.User",
+        "type": "user",
+        "thicknessMm": 0.1,
+        "role": "mechanical",
+        "routingEnabled": false
+      },
+      {
+        "name": "Cmts.User",
+        "type": "user",
+        "thicknessMm": 0.1,
+        "role": "mechanical",
+        "routingEnabled": false
+      },
+      {
+        "name": "Eco1.User",
+        "type": "user",
+        "thicknessMm": 0.1,
+        "role": "mechanical",
+        "routingEnabled": false
+      },
+      {
+        "name": "Eco2.User",
+        "type": "user",
+        "thicknessMm": 0.1,
+        "role": "mechanical",
+        "routingEnabled": false
+      },
+      {
+        "name": "Edge.Cuts",
+        "type": "user",
+        "thicknessMm": 0.1,
+        "role": "mechanical",
+        "routingEnabled": false
+      },
+      {
+        "name": "Margin",
+        "type": "user",
+        "thicknessMm": 0.1,
+        "role": "mechanical",
+        "routingEnabled": false
+      },
+      {
+        "name": "F.CrtYd",
+        "type": "user",
+        "thicknessMm": 0.1,
+        "role": "mechanical",
+        "routingEnabled": false
+      },
+      {
+        "name": "B.CrtYd",
+        "type": "user",
+        "thicknessMm": 0.1,
+        "role": "mechanical",
+        "routingEnabled": false
+      },
+      {
+        "name": "F.Fab",
+        "type": "user",
+        "thicknessMm": 0.1,
+        "role": "mechanical",
+        "routingEnabled": false
+      },
+      {
+        "name": "B.Fab",
+        "type": "user",
+        "thicknessMm": 0.1,
+        "role": "mechanical",
+        "routingEnabled": false
+      },
+      {
+        "name": "User.1",
+        "type": "user",
+        "thicknessMm": 0.1,
+        "role": "mechanical",
+        "routingEnabled": false
+      },
+      {
+        "name": "User.2",
+        "type": "user",
+        "thicknessMm": 0.1,
+        "role": "mechanical",
+        "routingEnabled": false
+      },
+      {
+        "name": "User.3",
+        "type": "user",
+        "thicknessMm": 0.1,
+        "role": "mechanical",
+        "routingEnabled": false
+      },
+      {
+        "name": "User.4",
+        "type": "user",
+        "thicknessMm": 0.1,
+        "role": "mechanical",
+        "routingEnabled": false
+      }
+    ]
+  },
+  "boardConstraints": {
+    "minTraceWidthMm": 0.2,
+    "minClearanceMm": 0.0,
+    "minViaDiameterMm": 0.5,
+    "minViaDrillMm": 0.3,
+    "minAnnularMm": 0.1,
+    "minHoleMm": 0.3,
+    "holeToHoleMm": 0.25,
+    "holeClearanceMm": 0.25,
+    "routingGroups": [],
+    "differentialPairs": []
+  },
+  "autorouteSettings": {
+    "preset": "balancedTwoLayer",
+    "allowedLayers": [
+      "F.Cu",
+      "B.Cu"
+    ],
+    "planeNetNames": [
+      "GND",
+      "3V3"
+    ],
+    "routeUnroutedOnly": true,
+    "preserveManualCopper": true,
+    "allowVias": true,
+    "aggressiveRipup": false,
+    "stitchGroundReturns": true,
+    "repairPlanes": true,
+    "gridStepMm": 0.5,
+    "maxPasses": 3
+  },
+  "netClasses": [
+    {
+      "name": "Default",
+      "description": "",
+      "clearanceMm": 0.2,
+      "traceWidthMm": 0.2,
+      "viaDiameterMm": 0.6,
+      "viaDrillMm": 0.3,
+      "netNames": [
+        "+3V3",
+        "+5V",
+        "/ADS1115_A0",
+        "/ADS1115_A1",
+        "/ADS1115_A2",
+        "/ADS1115_A3",
+        "/CE0_SPI0",
+        "/CE1_SPI0",
+        "/GPIO16",
+        "/GPIO17",
+        "/GPIO18",
+        "/GPIO19",
+        "/GPIO20",
+        "/GPIO21",
+        "/GPIO22",
+        "/GPIO23",
+        "/GPIO24",
+        "/GPIO25",
+        "/GPIO26",
+        "/GPIO27",
+        "/GPIO4",
+        "/GPIO5",
+        "/GPIO6",
+        "/ID_SC",
+        "/ID_SD",
+        "/MISO_SPI0",
+        "/MOSI_SPI0",
+        "/PWM0",
+        "/PWM1",
+        "/SCLK_SPI0",
+        "/SCL_I2C",
+        "/SDA_I2C",
+        "/UART_Rx",
+        "/UART_Tx",
+        "GND",
+        "Net-(A1-SCL)",
+        "Net-(A1-SDA)",
+        "Net-(A2-SQW)",
+        "Net-(D1-A)",
+        "Net-(D2-A)",
+        "Net-(J13-Pin_1)",
+        "Net-(J5-Pin_1)",
+        "Net-(J6-Pin_1)",
+        "Net-(J7-Pin_1)",
+        "Net-(J8-Pin_1)",
+        "Net-(J9-Pin_1)",
+        "Net-(J9-Pin_2)",
+        "Net-(JP10-A)",
+        "Net-(JP2-A)",
+        "Net-(JP2-B)",
+        "Net-(JP3-B)",
+        "Net-(JP6-B)",
+        "Net-(JP7-A)",
+        "Net-(JP8-A)",
+        "Net-(JP9-A)",
+        "Net-(U1-RO)",
+        "unconnected-(A2-32K-Pad1)",
+        "unconnected-(U3-PadHV1)",
+        "unconnected-(U3-PadHV2)",
+        "unconnected-(U3-PadLV1)",
+        "unconnected-(U3-PadLV2)"
+      ],
+      "diffPairWidthMm": 0.2,
+      "diffPairGapMm": 0.25
+    }
+  ],
+  "deferredRawBlocks": [
+    "(covering\r\n\t\t\t(front no)\r\n\t\t\t(back no)\r\n\t\t)",
+    "(plugging\r\n\t\t\t(front no)\r\n\t\t\t(back no)\r\n\t\t)",
+    "(capping no)",
+    "(filling no)"
+  ],
+  "pageSetup": {
+    "paperSize": "Infinite",
+    "paperPortrait": false
+  }
+}

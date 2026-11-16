@@ -1,0 +1,72 @@
+{
+ "fingerprint": "d2b9e9385e6363e6",
+ "findings": [
+  {
+   "id": "decap:n:+5V",
+   "category": "missing_decoupling",
+   "line": "+5V: power pins of A1, A2, U1, U2, no capacitor to ground → no decoupling",
+   "rank": 3,
+   "confidence": "estimated",
+   "refs": [
+    "A1",
+    "A2",
+    "U1",
+    "U2"
+   ],
+   "nets": [
+    "n:+5V"
+   ]
+  },
+  {
+   "id": "pullup:n:SCL_I2C",
+   "category": "missing_pull_up",
+   "line": "SCL_I2C: open-drain bus, 3 devices, no resistor to a rail → no pull-up",
+   "rank": 3,
+   "confidence": "estimated",
+   "refs": [
+    "A2",
+    "U2",
+    "U3"
+   ],
+   "nets": [
+    "n:SCL_I2C"
+   ]
+  },
+  {
+   "id": "pullup:n:SDA_I2C",
+   "category": "missing_pull_up",
+   "line": "SDA_I2C: open-drain bus, 3 devices, no resistor to a rail → no pull-up",
+   "rank": 3,
+   "confidence": "estimated",
+   "refs": [
+    "A2",
+    "U2",
+    "U3"
+   ],
+   "nets": [
+    "n:SDA_I2C"
+   ]
+  },
+  {
+   "id": "stress:PS1:Voltage rating",
+   "category": "part_rating",
+   "line": "PS1 Voltage rating: 5 V vs rating 4.5 V (111%)",
+   "rank": 3,
+   "confidence": "estimated",
+   "refs": [
+    "PS1"
+   ]
+  },
+  {
+   "id": "tline:n:SCLK_SPI0",
+   "category": "unterminated_long_net",
+   "line": "SCLK_SPI0: 187 mm routed, critical ~26 mm (edge ~1 ns assumed CMOS) → no termination part",
+   "rank": 2,
+   "confidence": "assumed",
+   "nets": [
+    "n:SCLK_SPI0"
+   ]
+  }
+ ],
+ "unknowns": {}
+}

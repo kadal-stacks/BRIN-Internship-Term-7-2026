@@ -82,7 +82,7 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
 			(outputdirectory "")
 		)
@@ -3646,17 +3646,6 @@
 			)
 			(rotate
 				(xyz -90 -180 -0)
-			)
-		)
-		(model "C:/Users/Administrator/Downloads/spacer-m2x3-m2x5-m2x8-m2x10-m2x12-m2x15-m2x20-m2x25-1.snapshot.3/Spacer M2x5mm.SLDPRT"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
 			)
 		)
 	)

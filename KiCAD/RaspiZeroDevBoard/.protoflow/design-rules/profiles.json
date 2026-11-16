@@ -1,0 +1,396 @@
+{
+ "fingerprint": "d2b9e9385e6363e6",
+ "nets": {
+  "n:GND": {
+   "name": "GND",
+   "kind": "ground",
+   "basis": "structural"
+  },
+  "p:J6.1": {
+   "name": "N_44EEA1A4",
+   "kind": "external_io",
+   "basis": "structural"
+  },
+  "n:ADS1115_A0": {
+   "name": "ADS1115_A0",
+   "kind": "digital_slow",
+   "basis": "structural"
+  },
+  "p:JP8.1": {
+   "name": "N_D418CE88",
+   "kind": "unclassified",
+   "basis": "heuristic"
+  },
+  "n:GPIO27": {
+   "name": "GPIO27",
+   "kind": "external_io",
+   "basis": "structural"
+  },
+  "n:+5V": {
+   "name": "+5V",
+   "kind": "power_rail",
+   "basis": "declared",
+   "numbers": {
+    "ics": "4",
+    "caps": "0"
+   }
+  },
+  "p:JP7.1": {
+   "name": "N_126280FF",
+   "kind": "unclassified",
+   "basis": "heuristic"
+  },
+  "n:GPIO17": {
+   "name": "GPIO17",
+   "kind": "external_io",
+   "basis": "structural"
+  },
+  "p:J5.1": {
+   "name": "N_06EF8562",
+   "kind": "external_io",
+   "basis": "structural"
+  },
+  "n:+3V3": {
+   "name": "+3V3",
+   "kind": "power_rail",
+   "basis": "declared"
+  },
+  "n:UART_TX": {
+   "name": "UART_Tx",
+   "kind": "external_io",
+   "basis": "structural"
+  },
+  "n:UART_RX": {
+   "name": "UART_Rx",
+   "kind": "external_io",
+   "basis": "structural"
+  },
+  "p:JP9.1": {
+   "name": "N_D016650A",
+   "kind": "unclassified",
+   "basis": "heuristic"
+  },
+  "n:GPIO22": {
+   "name": "GPIO22",
+   "kind": "external_io",
+   "basis": "structural"
+  },
+  "n:N_8FA0DF5C": {
+   "name": "N_8FA0DF5C",
+   "kind": "power_rail",
+   "basis": "declared"
+  },
+  "p:D1.2": {
+   "name": "N_6CF743B4",
+   "kind": "unclassified",
+   "basis": "heuristic"
+  },
+  "p:A1.4": {
+   "name": "N_00FED9BE",
+   "kind": "open_drain_bus",
+   "basis": "heuristic"
+  },
+  "n:SDA_I2C": {
+   "name": "SDA_I2C",
+   "kind": "open_drain_bus",
+   "basis": "heuristic"
+  },
+  "p:U2.5": {
+   "name": "N_B4D90687",
+   "kind": "digital_slow",
+   "basis": "structural"
+  },
+  "n:ADS1115_A1": {
+   "name": "ADS1115_A1",
+   "kind": "digital_slow",
+   "basis": "structural"
+  },
+  "p:D2.2": {
+   "name": "N_FA5E309A",
+   "kind": "unclassified",
+   "basis": "heuristic"
+  },
+  "p:U3.HV1": {
+   "name": "N_0BC01876",
+   "kind": "digital_slow",
+   "basis": "structural"
+  },
+  "p:U3.HV2": {
+   "name": "N_0AC016E3",
+   "kind": "digital_slow",
+   "basis": "structural"
+  },
+  "p:A1.3": {
+   "name": "N_623C6A5E",
+   "kind": "open_drain_bus",
+   "basis": "heuristic"
+  },
+  "p:U3.LV1": {
+   "name": "N_5FE99F12",
+   "kind": "digital_slow",
+   "basis": "structural"
+  },
+  "p:U3.LV2": {
+   "name": "N_5EE99D7F",
+   "kind": "digital_slow",
+   "basis": "structural"
+  },
+  "n:SCL_I2C": {
+   "name": "SCL_I2C",
+   "kind": "open_drain_bus",
+   "basis": "heuristic"
+  },
+  "n:GPIO24": {
+   "name": "GPIO24",
+   "kind": "external_io",
+   "basis": "structural"
+  },
+  "p:U2.6": {
+   "name": "N_0CA7D986",
+   "kind": "digital_slow",
+   "basis": "structural"
+  },
+  "n:GPIO4": {
+   "name": "GPIO4",
+   "kind": "external_io",
+   "basis": "structural"
+  },
+  "n:GPIO18": {
+   "name": "GPIO18",
+   "kind": "external_io",
+   "basis": "structural"
+  },
+  "n:GPIO23": {
+   "name": "GPIO23",
+   "kind": "external_io",
+   "basis": "structural"
+  },
+  "n:MOSI_SPI0": {
+   "name": "MOSI_SPI0",
+   "kind": "external_io",
+   "basis": "structural"
+  },
+  "n:MISO_SPI0": {
+   "name": "MISO_SPI0",
+   "kind": "external_io",
+   "basis": "structural"
+  },
+  "n:GPIO25": {
+   "name": "GPIO25",
+   "kind": "external_io",
+   "basis": "structural"
+  },
+  "n:SCLK_SPI0": {
+   "name": "SCLK_SPI0",
+   "kind": "clock",
+   "basis": "heuristic",
+   "numbers": {
+    "routed": "187 mm",
+    "edge": "~1 ns (assumed CMOS)",
+    "knee": "~318 MHz",
+    "critical": "~26 mm"
+   }
+  },
+  "n:CE0_SPI0": {
+   "name": "CE0_SPI0",
+   "kind": "external_io",
+   "basis": "structural"
+  },
+  "n:CE1_SPI0": {
+   "name": "CE1_SPI0",
+   "kind": "external_io",
+   "basis": "structural"
+  },
+  "n:ID_SD": {
+   "name": "ID_SD",
+   "kind": "open_drain_bus",
+   "basis": "heuristic"
+  },
+  "n:ID_SC": {
+   "name": "ID_SC",
+   "kind": "open_drain_bus",
+   "basis": "heuristic"
+  },
+  "n:GPIO5": {
+   "name": "GPIO5",
+   "kind": "external_io",
+   "basis": "structural"
+  },
+  "n:GPIO6": {
+   "name": "GPIO6",
+   "kind": "external_io",
+   "basis": "structural"
+  },
+  "n:PWM0": {
+   "name": "PWM0",
+   "kind": "external_io",
+   "basis": "structural"
+  },
+  "n:PWM1": {
+   "name": "PWM1",
+   "kind": "external_io",
+   "basis": "structural"
+  },
+  "n:GPIO19": {
+   "name": "GPIO19",
+   "kind": "external_io",
+   "basis": "structural"
+  },
+  "n:GPIO16": {
+   "name": "GPIO16",
+   "kind": "external_io",
+   "basis": "structural"
+  },
+  "n:GPIO26": {
+   "name": "GPIO26",
+   "kind": "external_io",
+   "basis": "structural"
+  },
+  "n:GPIO20": {
+   "name": "GPIO20",
+   "kind": "external_io",
+   "basis": "structural"
+  },
+  "n:GPIO21": {
+   "name": "GPIO21",
+   "kind": "external_io",
+   "basis": "structural"
+  },
+  "p:U1.6": {
+   "name": "N_4990753C",
+   "kind": "digital_slow",
+   "basis": "structural"
+  },
+  "n:ADS1115_A2": {
+   "name": "ADS1115_A2",
+   "kind": "digital_slow",
+   "basis": "structural"
+  },
+  "n:ADS1115_A3": {
+   "name": "ADS1115_A3",
+   "kind": "digital_slow",
+   "basis": "structural"
+  },
+  "p:U1.5": {
+   "name": "N_779DFA76",
+   "kind": "digital_slow",
+   "basis": "structural"
+  },
+  "p:J9.1": {
+   "name": "N_129BC06D",
+   "kind": "external_io",
+   "basis": "structural"
+  },
+  "p:J9.2": {
+   "name": "N_DE6F5D7D",
+   "kind": "external_io",
+   "basis": "structural"
+  },
+  "p:J7.1": {
+   "name": "N_BB74F8DA",
+   "kind": "external_io",
+   "basis": "structural"
+  },
+  "p:A2.2": {
+   "name": "N_DC093C2A",
+   "kind": "digital_slow",
+   "basis": "structural"
+  },
+  "p:U1.7": {
+   "name": "N_00166079",
+   "kind": "digital_slow",
+   "basis": "structural"
+  },
+  "p:JP10.1": {
+   "name": "N_7318DD7B",
+   "kind": "unclassified",
+   "basis": "heuristic"
+  },
+  "p:J8.1": {
+   "name": "N_E6838DF8",
+   "kind": "external_io",
+   "basis": "structural"
+  },
+  "p:A2.1": {
+   "name": "N_26A97FD7",
+   "kind": "digital_slow",
+   "basis": "structural"
+  }
+ },
+ "parts": {
+  "C1": {
+   "numbers": {
+    "Operating temperature range (Max) stress": "50~/125 °C"
+   }
+  },
+  "R10": {
+   "roles": [
+    "pull_up(N_00FED9BE)"
+   ]
+  },
+  "R12": {
+   "roles": [
+    "pull_down(UART_Rx)"
+   ],
+   "numbers": {
+    "R": "15 kΩ"
+   }
+  },
+  "C2": {
+   "numbers": {
+    "Operating temperature range (Max) stress": "50~/125 °C"
+   }
+  },
+  "R14": {
+   "roles": [
+    "pull_up(N_4990753C)"
+   ],
+   "numbers": {
+    "R": "10 kΩ"
+   }
+  },
+  "C3": {
+   "numbers": {
+    "Operating temperature range (Max) stress": "50~/125 °C"
+   }
+  },
+  "R11": {
+   "numbers": {
+    "R": "10 kΩ"
+   }
+  },
+  "R5": {
+   "roles": [
+    "pull_up(N_126280FF)"
+   ]
+  },
+  "R9": {
+   "roles": [
+    "pull_up(N_623C6A5E)"
+   ]
+  },
+  "C4": {
+   "numbers": {
+    "Operating temperature range (Max) stress": "50~/125 °C"
+   }
+  },
+  "R6": {
+   "roles": [
+    "pull_up(N_D418CE88)"
+   ]
+  },
+  "R13": {
+   "roles": [
+    "pull_down(N_00166079)"
+   ],
+   "numbers": {
+    "R": "10 kΩ"
+   }
+  },
+  "PS1": {
+   "numbers": {
+    "Voltage rating stress": "5/4.5 V"
+   }
+  }
+ }
+}

@@ -1,0 +1,42 @@
+{
+  "steps": [
+    {
+      "action": "route_planes",
+      "assignments": [
+        {
+          "nets": [
+            "GND"
+          ],
+          "layer": "B.Cu"
+        }
+      ],
+      "params": {
+        "add_gnd_vias": true,
+        "gnd_via_distance": 2.5,
+        "gnd_via_net": "GND"
+      }
+    },
+    {
+      "action": "route",
+      "nets": [
+        "*"
+      ],
+      "params": {
+        "track_width": 0.25,
+        "clearance": 0.15,
+        "via_size": 0.5,
+        "via_drill": 0.25,
+        "power_nets": [
+          "+5V",
+          "+3V3",
+          "GND"
+        ],
+        "power_nets_widths": [
+          0.5,
+          0.5,
+          0.5
+        ]
+      }
+    }
+  ]
+}
